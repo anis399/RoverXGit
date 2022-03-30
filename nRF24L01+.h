@@ -37,6 +37,8 @@
 #define _AndLow4(a) (a & (15))
 #define Max(a, b) (a>b?a:b)
 #define Min(a, b) (a<b?a:b)
+#define ROTATE_LEFT(data, pos) ((data << pos)|(data >> (INT_BITS - pos)))
+#define ROTATE_RIGHT(data, pos) ((data >> pos)|(data << (INT_BITS - pos)))
 
 uint8_t NRF24SendData[32];
 uint8_t NRF24ReadData[32];
