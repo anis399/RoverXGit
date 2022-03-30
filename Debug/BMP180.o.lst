@@ -1,0 +1,124 @@
+   1              	 .cpu cortex-m0
+   2              	 .fpu softvfp
+   3              	 .eabi_attribute 20,1
+   4              	 .eabi_attribute 21,1
+   5              	 .eabi_attribute 23,3
+   6              	 .eabi_attribute 24,1
+   7              	 .eabi_attribute 25,1
+   8              	 .eabi_attribute 26,1
+   9              	 .eabi_attribute 30,6
+  10              	 .eabi_attribute 34,0
+  11              	 .eabi_attribute 18,4
+  12              	 .code 16
+  13              	 .file "BMP180.c"
+  14              	 .text
+  15              	.Ltext0:
+  16              	 .cfi_sections .debug_frame
+  17              	 .comm BMP180_DataSent,32,4
+  18              	 .comm BMP180_DataRead,32,4
+  19              	 .section .text.BMP180_Test,"ax",%progbits
+  20              	 .align 2
+  21              	 .global BMP180_Test
+  22              	 .code 16
+  23              	 .thumb_func
+  25              	BMP180_Test:
+  26              	.LFB244:
+  27              	 .file 1 "../BMP180.c"
+   1:../BMP180.c   **** /*
+   2:../BMP180.c   ****  * BMP180.c
+   3:../BMP180.c   ****  *
+   4:../BMP180.c   ****  *  Created on: Mar 18, 2022
+   5:../BMP180.c   ****  *      Author: Anis Shakkour
+   6:../BMP180.c   ****  *      Email: anis.shakkour399@gmail.com
+   7:../BMP180.c   ****  */
+   8:../BMP180.c   **** 
+   9:../BMP180.c   **** 
+  10:../BMP180.c   **** #ifndef BMP180_H
+  11:../BMP180.c   **** #define BMP180_H
+  12:../BMP180.c   **** 
+  13:../BMP180.c   **** #include "BMP180.h"
+  14:../BMP180.c   **** 
+  15:../BMP180.c   **** uint8_t BMP180_Test(void){
+  28              	 .loc 1 15 0
+  29              	 .cfi_startproc
+  30 0000 90B5     	 push {r4,r7,lr}
+  31              	.LCFI0:
+  32              	 .cfi_def_cfa_offset 12
+  33              	 .cfi_offset 4,-12
+  34              	 .cfi_offset 7,-8
+  35              	 .cfi_offset 14,-4
+  36 0002 83B0     	 sub sp,sp,#12
+  37              	.LCFI1:
+  38              	 .cfi_def_cfa_offset 24
+  39 0004 02AF     	 add r7,sp,#8
+  40              	.LCFI2:
+  41              	 .cfi_def_cfa 7,16
+  16:../BMP180.c   **** 	//I2C_MASTER_ClearFlag(&I2C_MASTER_0,I2C_MASTER_STATUS_BUSY);
+  17:../BMP180.c   **** 	//I2C_MASTER_FlushTxFifo(&I2C_MASTER_0);
+  18:../BMP180.c   **** 	//I2C_MASTER_FlushRxFifo(&I2C_MASTER_0);
+  19:../BMP180.c   **** 	BMP180_DataSent[0] = 0xD0;
+  42              	 .loc 1 19 0
+  43 0006 0A4B     	 ldr r3,.L3
+  44 0008 D022     	 mov r2,#208
+  45 000a 1A70     	 strb r2,[r3]
+  20:../BMP180.c   **** 
+  21:../BMP180.c   **** 	I2C_MASTER_Transmit(&I2C_MASTER_0,true,0xEE,BMP180_DataSent,1,true);
+  46              	 .loc 1 21 0
+  47 000c 094A     	 ldr r2,.L3+4
+  48 000e 084C     	 ldr r4,.L3
+  49 0010 0123     	 mov r3,#1
+  50 0012 0093     	 str r3,[sp]
+  51 0014 0123     	 mov r3,#1
+  52 0016 0193     	 str r3,[sp,#4]
+  53 0018 101C     	 mov r0,r2
+  54 001a 0121     	 mov r1,#1
+  55 001c EE22     	 mov r2,#238
+  56 001e 231C     	 mov r3,r4
+  57 0020 FFF7FEFF 	 bl I2C_MASTER_Transmit
+  22:../BMP180.c   **** 	//while(I2C_MASTER_IsTxBusy(&I2C_MASTER_0));
+  23:../BMP180.c   **** 	//I2C_MASTER_Receive(&I2C_MASTER_0,true,BMP180_Address|BMP180_R,&BMP180_DataRead,1,true,true);
+  24:../BMP180.c   **** 	//while(I2C_MASTER_IsRxBusy(&I2C_MASTER_0));
+  25:../BMP180.c   **** 	return BMP180_DataRead[0];
+  58              	 .loc 1 25 0
+  59 0024 044B     	 ldr r3,.L3+8
+  60 0026 1B78     	 ldrb r3,[r3]
+  26:../BMP180.c   **** }
+  61              	 .loc 1 26 0
+  62 0028 181C     	 mov r0,r3
+  63 002a BD46     	 mov sp,r7
+  64 002c 01B0     	 add sp,sp,#4
+  65              	 
+  66 002e 90BD     	 pop {r4,r7,pc}
+  67              	.L4:
+  68              	 .align 2
+  69              	.L3:
+  70 0030 00000000 	 .word BMP180_DataSent
+  71 0034 00000000 	 .word I2C_MASTER_0
+  72 0038 00000000 	 .word BMP180_DataRead
+  73              	 .cfi_endproc
+  74              	.LFE244:
+  76              	 .text
+  77              	.Letext0:
+  78              	 .file 2 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+  79              	 .file 3 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+  80              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Infineon/XMC1400_series/Include/XMC1400.h"
+  81              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_usic.h"
+  82              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_spi.h"
+  83              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_i2c.h"
+  84              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/I2C_MASTER/i2c_master.h"
+  85              	 .file 9 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Include/cmsis_gcc.h"
+  86              	 .file 10 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Infineon/XMC1400_series/Include/system_XMC1400.h"
+  87              	 .file 11 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/I2C_MASTER/i2c_master_extern.h"
+  88              	 .file 12 "../BMP180.h"
+DEFINED SYMBOLS
+                            *ABS*:00000000 BMP180.c
+                            *COM*:00000020 BMP180_DataSent
+                            *COM*:00000020 BMP180_DataRead
+    {standard input}:20     .text.BMP180_Test:00000000 $t
+    {standard input}:25     .text.BMP180_Test:00000000 BMP180_Test
+    {standard input}:70     .text.BMP180_Test:00000030 $d
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+I2C_MASTER_Transmit
+I2C_MASTER_0
