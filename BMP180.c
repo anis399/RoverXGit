@@ -11,7 +11,7 @@
 #define BMP180_H
 
 #include "BMP180.h"
-
+//GIT TEST
 
 void I2C_Scanner(){
 	XMC_DEBUG("\n\nStarting I2C Scanner.... \n");
