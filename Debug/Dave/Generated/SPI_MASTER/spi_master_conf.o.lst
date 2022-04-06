@@ -6239,11 +6239,11 @@
  1537 00f2 9023     	 mov r3,#144
  1538 00f4 DB05     	 lsl r3,r3,#23
  1539 00f6 181C     	 mov r0,r3
- 1540 00f8 3021     	 mov r1,#48
+ 1540 00f8 2021     	 mov r1,#32
  1541 00fa 0422     	 mov r2,#4
  1542 00fc 0123     	 mov r3,#1
  1543 00fe FFF7FEFF 	 bl XMC_USIC_CH_TXFIFO_Configure
- 573:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                48U,
+ 573:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                32U,
  574:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                (XMC_USIC_CH_FIFO_SIZE_t)XMC_USIC_CH_FIFO_SIZE_16WORDS,
  575:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                1U);
  576:../Dave/Generated/SPI_MASTER/spi_master_conf.c **** 
@@ -6265,11 +6265,11 @@
  1552 0110 9023     	 mov r3,#144
  1553 0112 DB05     	 lsl r3,r3,#23
  1554 0114 181C     	 mov r0,r3
- 1555 0116 2021     	 mov r1,#32
+ 1555 0116 1021     	 mov r1,#16
  1556 0118 0422     	 mov r2,#4
  1557 011a 0023     	 mov r3,#0
  1558 011c FFF7FEFF 	 bl XMC_USIC_CH_RXFIFO_Configure
- 584:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                32U,
+ 584:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                16U,
  585:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                (XMC_USIC_CH_FIFO_SIZE_t)XMC_USIC_CH_FIFO_SIZE_16WORDS,
  586:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****                                0U);
  587:../Dave/Generated/SPI_MASTER/spi_master_conf.c ****              

@@ -56,7 +56,10 @@
     <resourcesList name="pin" requiredResourceUri="http://resources/VQFN64.0.0/devicepackage/0/pin19"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="10" URI="http://resources/vqfn64.0.0/devicepackage/0/10">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/I2C_MASTER/v4_1_34/I2C_MASTER_0.app#//@hwResources.11"/>
     <resourcesList name="pin" requiredResourceUri="http://resources/VQFN64.0.0/devicepackage/0/pin10"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="20" URI="http://resources/vqfn64.0.0/devicepackage/0/20">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/I2C_MASTER/v4_1_34/I2C_MASTER_0.app#//@hwResources.11"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/VQFN64.0.0/devicepackage/0/pin20"/>
   </provided>
 </ResourceModel:DevicePackage>

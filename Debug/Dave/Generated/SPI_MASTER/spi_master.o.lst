@@ -5939,7 +5939,7 @@
  1850              	.L71:
  1851 00b2 C046     	 .align 2
  1852              	.L70:
- 1853 00b4 00000000 	 .word dummy_data.7074
+ 1853 00b4 00000000 	 .word dummy_data.7801
  1854              	 .cfi_endproc
  1855              	.LFE207:
  1857              	 .section .text.SPI_MASTER_Transfer,"ax",%progbits
@@ -9209,9 +9209,9 @@
  4052 009c 80BD     	 pop {r7,pc}
  4053              	 .cfi_endproc
  4054              	.LFE220:
- 4056 009e C046     	 .section .data.dummy_data.7074,"aw",%progbits
+ 4056 009e C046     	 .section .data.dummy_data.7801,"aw",%progbits
  4057              	 .align 2
- 4060              	dummy_data.7074:
+ 4060              	dummy_data.7801:
  4061 0000 FF       	 .byte -1
  4062 0001 FF       	 .byte -1
  4063 0002 0000     	 .text
@@ -9299,7 +9299,7 @@ DEFINED SYMBOLS
     {standard input}:1721   .text.SPI_MASTER_StartReceiveIRQ:00000000 $t
     {standard input}:2562   .text.SPI_MASTER_lReceiveIRQ:00000000 SPI_MASTER_lReceiveIRQ
     {standard input}:1853   .text.SPI_MASTER_StartReceiveIRQ:000000b4 $d
-    {standard input}:4060   .data.dummy_data.7074:00000000 dummy_data.7074
+    {standard input}:4060   .data.dummy_data.7801:00000000 dummy_data.7801
     {standard input}:1858   .text.SPI_MASTER_Transfer:00000000 $t
     {standard input}:1863   .text.SPI_MASTER_Transfer:00000000 SPI_MASTER_Transfer
     {standard input}:2006   .text.SPI_MASTER_AbortReceive:00000000 $t
@@ -9322,7 +9322,7 @@ DEFINED SYMBOLS
     {standard input}:3459   .text.SPI_MASTER_lPortModeSet:00000000 $t
     {standard input}:3733   .text.SPI_MASTER_lPortModeReset:00000000 $t
     {standard input}:3936   .text.SPI_MASTER_lValidateModeChange:00000000 $t
-    {standard input}:4057   .data.dummy_data.7074:00000000 $d
+    {standard input}:4057   .data.dummy_data.7801:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

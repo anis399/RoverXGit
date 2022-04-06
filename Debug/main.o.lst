@@ -2186,21 +2186,55 @@
  180              	 .comm ADXL345_DataRead,32,4
  181              	 .comm BMP180_DataSent,32,4
  182              	 .comm BMP180_DataRead,32,4
- 183              	 .global data
- 184 001e C046     	 .section .data.data,"aw",%progbits
- 185              	 .align 2
- 188              	data:
- 189 0000 582C202E 	 .ascii "X, .Y, .Z, \000"
- 189      592C202E 
- 189      5A2C2000 
- 190              	 .section .text.main,"ax",%progbits
- 191              	 .align 2
- 192              	 .global main
- 193              	 .code 16
- 194              	 .thumb_func
- 196              	main:
- 197              	.LFB244:
- 198              	 .file 4 "../main.c"
+ 183              	 .comm BMP180_I2C_Status,1,1
+ 184              	 .global data
+ 185 001e C046     	 .section .data.data,"aw",%progbits
+ 186              	 .align 2
+ 189              	data:
+ 190 0000 582C202E 	 .ascii "X, .Y, .Z, \000"
+ 190      592C202E 
+ 190      5A2C2000 
+ 191              	 .global slaveID
+ 192              	 .section .data.slaveID,"aw",%progbits
+ 195              	slaveID:
+ 196 0000 EC       	 .byte -20
+ 197              	 .section .rodata
+ 198              	 .align 2
+ 199              	.LC0:
+ 200 0000 44415645 	 .ascii "DAVE APPs initialization failed\000"
+ 200      20415050 
+ 200      7320696E 
+ 200      69746961 
+ 200      6C697A61 
+ 201              	 .align 2
+ 202              	.LC2:
+ 203 0020 44415645 	 .ascii "DAVE APPs initialization passed\000"
+ 203      20415050 
+ 203      7320696E 
+ 203      69746961 
+ 203      6C697A61 
+ 204              	 .align 2
+ 205              	.LC7:
+ 206 0040 54657374 	 .ascii "Test Communication returned %d \012\000"
+ 206      20436F6D 
+ 206      6D756E69 
+ 206      63617469 
+ 206      6F6E2072 
+ 207 0061 000000   	 .align 2
+ 208              	.LC9:
+ 209 0064 496E6974 	 .ascii "Init returned %d \012\000"
+ 209      20726574 
+ 209      75726E65 
+ 209      64202564 
+ 209      200A00
+ 210              	 .section .text.main,"ax",%progbits
+ 211              	 .align 2
+ 212              	 .global main
+ 213              	 .code 16
+ 214              	 .thumb_func
+ 216              	main:
+ 217              	.LFB244:
+ 218              	 .file 4 "../main.c"
    1:../main.c     **** /*
    2:../main.c     ****  * main.c
    3:../main.c     ****  *
@@ -2213,245 +2247,480 @@
   10:../main.c     **** #include "ADXL345.h"
   11:../main.c     **** #include "BMP180.h"
   12:../main.c     **** 
-  13:../main.c     **** extern uint8_t ADXL345_DataRead[32];
-  14:../main.c     **** char data[] = "X, .Y, .Z, ";
-  15:../main.c     **** 
-  16:../main.c     **** int main(void)
-  17:../main.c     **** {
- 199              	 .loc 4 17 0
- 200              	 .cfi_startproc
- 201 0000 90B5     	 push {r4,r7,lr}
- 202              	.LCFI12:
- 203              	 .cfi_def_cfa_offset 12
- 204              	 .cfi_offset 4,-12
- 205              	 .cfi_offset 7,-8
- 206              	 .cfi_offset 14,-4
- 207 0002 83B0     	 sub sp,sp,#12
- 208              	.LCFI13:
- 209              	 .cfi_def_cfa_offset 24
- 210 0004 00AF     	 add r7,sp,#0
- 211              	.LCFI14:
- 212              	 .cfi_def_cfa_register 7
-  18:../main.c     ****   DAVE_STATUS_t status;
-  19:../main.c     **** 
-  20:../main.c     ****   status = DAVE_Init();           /* Initialization of DAVE APPs */
- 213              	 .loc 4 20 0
- 214 0006 FC1C     	 add r4,r7,#3
- 215 0008 FFF7FEFF 	 bl DAVE_Init
- 216 000c 031C     	 mov r3,r0
- 217 000e 2370     	 strb r3,[r4]
-  21:../main.c     **** 
-  22:../main.c     ****   if (status != DAVE_STATUS_SUCCESS)
- 218              	 .loc 4 22 0
- 219 0010 FB1C     	 add r3,r7,#3
- 220 0012 1B78     	 ldrb r3,[r3]
- 221 0014 002B     	 cmp r3,#0
- 222 0016 00D0     	 beq .L6
- 223              	.L7:
-  23:../main.c     ****   	  { XMC_DEBUG("DAVE APPs initialization failed\n");  while(1U); }
- 224              	 .loc 4 23 0 discriminator 1
- 225 0018 FEE7     	 b .L7
- 226              	.L6:
+  13:../main.c     **** extern void initialise_monitor_handles(void);
+  14:../main.c     **** 
+  15:../main.c     **** extern uint8_t ADXL345_DataRead[32];
+  16:../main.c     **** char data[] = "X, .Y, .Z, ";
+  17:../main.c     **** uint8_t slaveID = 236;
+  18:../main.c     **** 
+  19:../main.c     **** int main(void)
+  20:../main.c     **** {
+ 219              	 .loc 4 20 0
+ 220              	 .cfi_startproc
+ 221 0000 90B5     	 push {r4,r7,lr}
+ 222              	.LCFI12:
+ 223              	 .cfi_def_cfa_offset 12
+ 224              	 .cfi_offset 4,-12
+ 225              	 .cfi_offset 7,-8
+ 226              	 .cfi_offset 14,-4
+ 227 0002 83B0     	 sub sp,sp,#12
+ 228              	.LCFI13:
+ 229              	 .cfi_def_cfa_offset 24
+ 230 0004 00AF     	 add r7,sp,#0
+ 231              	.LCFI14:
+ 232              	 .cfi_def_cfa_register 7
+  21:../main.c     ****   DAVE_STATUS_t status;
+  22:../main.c     ****   status = DAVE_Init();
+ 233              	 .loc 4 22 0
+ 234 0006 FC1D     	 add r4,r7,#7
+ 235 0008 FFF7FEFF 	 bl DAVE_Init
+ 236 000c 031C     	 mov r3,r0
+ 237 000e 2370     	 strb r3,[r4]
+  23:../main.c     ****   initialise_monitor_handles(); // enable XMC_DEBUG outputs
+ 238              	 .loc 4 23 0
+ 239 0010 FFF7FEFF 	 bl initialise_monitor_handles
   24:../main.c     **** 
-  25:../main.c     ****   DIGITAL_IO_SetOutputLow(&SPI_CE);
- 227              	 .loc 4 25 0
- 228 001a 0F4B     	 ldr r3,.L11
- 229 001c 181C     	 mov r0,r3
- 230 001e FFF7FEFF 	 bl DIGITAL_IO_SetOutputLow
-  26:../main.c     ****   SPI_MASTER_DisableSlaveSelectSignal(&SPI_MASTER_0);
- 231              	 .loc 4 26 0
- 232 0022 0E4B     	 ldr r3,.L11+4
- 233 0024 181C     	 mov r0,r3
- 234 0026 FFF7FEFF 	 bl SPI_MASTER_DisableSlaveSelectSignal
-  27:../main.c     ****   SPI_MASTER_DisableSlaveSelectSignal(&SPI_MASTER_1);
- 235              	 .loc 4 27 0
- 236 002a 0D4B     	 ldr r3,.L11+8
- 237 002c 181C     	 mov r0,r3
- 238 002e FFF7FEFF 	 bl SPI_MASTER_DisableSlaveSelectSignal
+  25:../main.c     **** 
+  26:../main.c     ****   if (status != DAVE_STATUS_SUCCESS)
+ 240              	 .loc 4 26 0
+ 241 0014 FB1D     	 add r3,r7,#7
+ 242 0016 1B78     	 ldrb r3,[r3]
+ 243 0018 002B     	 cmp r3,#0
+ 244 001a 04D0     	 beq .L6
+  27:../main.c     ****   	  { XMC_DEBUG("DAVE APPs initialization failed\n");  while(1U); }
+ 245              	 .loc 4 27 0
+ 246 001c 144B     	 ldr r3,.L9
+ 247 001e 181C     	 mov r0,r3
+ 248 0020 FFF7FEFF 	 bl puts
+ 249              	.L7:
+ 250              	 .loc 4 27 0 is_stmt 0 discriminator 1
+ 251 0024 FEE7     	 b .L7
+ 252              	.L6:
   28:../main.c     **** 
-  29:../main.c     ****   Init_RF24();
- 239              	 .loc 4 29 0
- 240 0032 FFF7FEFF 	 bl Init_RF24
-  30:../main.c     ****   TX_Mode();
- 241              	 .loc 4 30 0
- 242 0036 FFF7FEFF 	 bl TX_Mode
-  31:../main.c     **** 
-  32:../main.c     ****   Init_ADXL345();
- 243              	 .loc 4 32 0
- 244 003a FFF7FEFF 	 bl Init_ADXL345
- 245              	.L10:
+  29:../main.c     ****   XMC_DEBUG("DAVE APPs initialization passed\n");
+ 253              	 .loc 4 29 0 is_stmt 1
+ 254 0026 134B     	 ldr r3,.L9+4
+ 255 0028 181C     	 mov r0,r3
+ 256 002a FFF7FEFF 	 bl puts
+  30:../main.c     ****   DIGITAL_IO_SetOutputLow(&SPI_CE);
+ 257              	 .loc 4 30 0
+ 258 002e 124B     	 ldr r3,.L9+8
+ 259 0030 181C     	 mov r0,r3
+ 260 0032 FFF7FEFF 	 bl DIGITAL_IO_SetOutputLow
+  31:../main.c     ****   SPI_MASTER_DisableSlaveSelectSignal(&SPI_MASTER_0);
+ 261              	 .loc 4 31 0
+ 262 0036 114B     	 ldr r3,.L9+12
+ 263 0038 181C     	 mov r0,r3
+ 264 003a FFF7FEFF 	 bl SPI_MASTER_DisableSlaveSelectSignal
+  32:../main.c     ****   SPI_MASTER_DisableSlaveSelectSignal(&SPI_MASTER_1);
+ 265              	 .loc 4 32 0
+ 266 003e 104B     	 ldr r3,.L9+16
+ 267 0040 181C     	 mov r0,r3
+ 268 0042 FFF7FEFF 	 bl SPI_MASTER_DisableSlaveSelectSignal
   33:../main.c     **** 
-  34:../main.c     ****   while(1U)
-  35:../main.c     ****   {
-  36:../main.c     **** 	  BMP180_Test();
- 246              	 .loc 4 36 0
- 247 003e FFF7FEFF 	 bl BMP180_Test
- 248              	.LBB2:
-  37:../main.c     **** 	  //Send_Word("Hello Anis 2");
-  38:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
-  39:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
-  40:../main.c     **** 	  ////for(int i = 0 ; i < 0xFFFF;i++); //delay
-  41:../main.c     **** 	  //SetSPIworkingMode();
-  42:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
-  43:../main.c     **** 	  //data = GetdeviceID();
-  44:../main.c     **** 	  //if(data == ADXL345_FixedID)
-  45:../main.c     **** 	 	  //Send_Word("ADXL Connected");
-  46:../main.c     **** 	  //else
-  47:../main.c     **** 		  //Send_Word("ADXL Not Connected");
-  48:../main.c     **** 
-  49:../main.c     **** 	  //Get_AxisReadings();
-  50:../main.c     **** 	  //data[2]  = ADXL345_DataRead[1];
-  51:../main.c     **** 	  //data[6]  = ADXL345_DataRead[3];
-  52:../main.c     **** 	  //data[10] = ADXL345_DataRead[5];
-  53:../main.c     **** 	  //Send_Word(data);
-  54:../main.c     **** 	  //ReadRegister_SingleByte(DATAX0);
-  55:../main.c     **** 	  //Send_OneByte(ADXL345_DataRead[1]);
-  56:../main.c     **** 	  for(int i = 0 ; i < 0xFFFF;i++); //delay
- 249              	 .loc 4 56 0
- 250 0042 0023     	 mov r3,#0
- 251 0044 7B60     	 str r3,[r7,#4]
- 252 0046 02E0     	 b .L8
- 253              	.L9:
- 254              	 .loc 4 56 0 is_stmt 0 discriminator 3
- 255 0048 7B68     	 ldr r3,[r7,#4]
- 256 004a 0133     	 add r3,r3,#1
- 257 004c 7B60     	 str r3,[r7,#4]
- 258              	.L8:
- 259              	 .loc 4 56 0 discriminator 1
- 260 004e 7B68     	 ldr r3,[r7,#4]
- 261 0050 044A     	 ldr r2,.L11+12
- 262 0052 9342     	 cmp r3,r2
- 263 0054 F8DD     	 ble .L9
- 264              	.LBE2:
-  57:../main.c     **** 	  //data = ReadRegister(POWER_CTL);
-  58:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
-  59:../main.c     **** 
-  60:../main.c     ****   }
- 265              	 .loc 4 60 0 is_stmt 1
- 266 0056 F2E7     	 b .L10
- 267              	.L12:
- 268              	 .align 2
- 269              	.L11:
- 270 0058 00000000 	 .word SPI_CE
- 271 005c 00000000 	 .word SPI_MASTER_0
- 272 0060 00000000 	 .word SPI_MASTER_1
- 273 0064 FEFF0000 	 .word 65534
- 274              	 .cfi_endproc
- 275              	.LFE244:
- 277              	 .section .text.Nack_ISR,"ax",%progbits
- 278              	 .align 2
- 279              	 .global Nack_ISR
- 280              	 .code 16
- 281              	 .thumb_func
- 283              	Nack_ISR:
- 284              	.LFB245:
-  61:../main.c     **** }
-  62:../main.c     **** 
-  63:../main.c     **** void Nack_ISR(){
- 285              	 .loc 4 63 0
- 286              	 .cfi_startproc
- 287 0000 80B5     	 push {r7,lr}
- 288              	.LCFI15:
- 289              	 .cfi_def_cfa_offset 8
- 290              	 .cfi_offset 7,-8
- 291              	 .cfi_offset 14,-4
- 292 0002 00AF     	 add r7,sp,#0
- 293              	.LCFI16:
- 294              	 .cfi_def_cfa_register 7
-  64:../main.c     **** 
-  65:../main.c     **** 
-  66:../main.c     **** }
- 295              	 .loc 4 66 0
- 296 0004 BD46     	 mov sp,r7
- 297              	 
- 298 0006 80BD     	 pop {r7,pc}
+  34:../main.c     ****   //XMC_DEBUG("Data shifted %d",ROTATE_LEFT(0x76,1));
+  35:../main.c     ****   //XMC_DEBUG("Data moved %d",0x76<<1);
+  36:../main.c     ****   //I2C_Scanner();
+  37:../main.c     ****   //Init_RF24();
+  38:../main.c     ****   //TX_Mode();
+  39:../main.c     ****   //Init_ADXL345();
+  40:../main.c     ****   XMC_DEBUG("Test Communication returned %d \n",Text_Communication(BME180_Address));
+ 269              	 .loc 4 40 0
+ 270 0046 7620     	 mov r0,#118
+ 271 0048 FFF7FEFF 	 bl Text_Communication
+ 272 004c 031C     	 mov r3,r0
+ 273 004e 1A1C     	 mov r2,r3
+ 274 0050 0C4B     	 ldr r3,.L9+20
+ 275 0052 181C     	 mov r0,r3
+ 276 0054 111C     	 mov r1,r2
+ 277 0056 FFF7FEFF 	 bl printf
+  41:../main.c     ****   XMC_DEBUG("Init returned %d \n",BMP180_init());
+ 278              	 .loc 4 41 0
+ 279 005a FFF7FEFF 	 bl BMP180_init
+ 280 005e 031C     	 mov r3,r0
+ 281 0060 1A1C     	 mov r2,r3
+ 282 0062 094B     	 ldr r3,.L9+24
+ 283 0064 181C     	 mov r0,r3
+ 284 0066 111C     	 mov r1,r2
+ 285 0068 FFF7FEFF 	 bl printf
+ 286              	.L8:
+  42:../main.c     **** 
+  43:../main.c     ****   while(1U)
+  44:../main.c     ****   {
+  45:../main.c     **** 	  //XMC_DEBUG("BMP_Test\n");
+  46:../main.c     **** 	  //XMC_DEBUG("Status flag %lu",(unsigned long)XMC_I2C_CH_GetStatusFlag(I2C_MASTER_0.channel));
+  47:../main.c     **** 	  //BMP180_Test();
+  48:../main.c     **** 	  //for(; slaveID< 0xFF; slaveID++){
+  49:../main.c     **** 		  //I2C_MASTER_FlushRxFifo(&I2C_MASTER_0);
+  50:../main.c     **** 		  //I2C_MASTER_FlushTxFifo(&I2C_MASTER_0);
+  51:../main.c     **** 		  //BMP180_DataRead[0] = 0xD0;
+  52:../main.c     **** 		  //I2C_MASTER_Transmit(&I2C_MASTER_0,true,slaveID,BMP180_DataRead,1,false);
+  53:../main.c     **** 		  //for(int i = 0 ; i < 0xFFFF;i++); //delay
+  54:../main.c     **** 		  //while(I2C_MASTER_IsTxBusy(&I2C_MASTER_0));
+  55:../main.c     **** 		  //I2C_MASTER_Receive(&I2C_MASTER_0,true,slaveID,BMP180_DataRead,1,true,true);
+  56:../main.c     **** 		  //while(I2C_MASTER_IsTxBusy(&I2C_MASTER_0));
+  57:../main.c     **** 		  //for(int i = 0 ; i < 0xFF;i++); //delay
+  58:../main.c     **** 	  //}
+  59:../main.c     **** 	  //Send_Word("Hello Anis 2");
+  60:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
+  61:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
+  62:../main.c     **** 	  ////for(int i = 0 ; i < 0xFFFF;i++); //delay
+  63:../main.c     **** 	  //SetSPIworkingMode();
+  64:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
+  65:../main.c     **** 	  //data = GetdeviceID();
+  66:../main.c     **** 	  //if(data == ADXL345_FixedID)
+  67:../main.c     **** 	 	  //Send_Word("ADXL Connected");
+  68:../main.c     **** 	  //else
+  69:../main.c     **** 		  //Send_Word("ADXL Not Connected");
+  70:../main.c     **** 
+  71:../main.c     **** 	  //Get_AxisReadings();
+  72:../main.c     **** 	  //data[2]  = ADXL345_DataRead[1];
+  73:../main.c     **** 	  //data[6]  = ADXL345_DataRead[3];
+  74:../main.c     **** 	  //data[10] = ADXL345_DataRead[5];
+  75:../main.c     **** 	  //Send_Word(data);
+  76:../main.c     **** 	  //ReadRegister_SingleByte(DATAX0);
+  77:../main.c     **** 	  //Send_OneByte(ADXL345_DataRead[1]);
+  78:../main.c     **** 	  //for(int i = 0 ; i < 0xFF;i++); //delay
+  79:../main.c     **** 	  //data = ReadRegister(POWER_CTL);
+  80:../main.c     **** 	  //for(int i = 0 ; i < 0xFFFF;i++); //delay
+  81:../main.c     **** 
+  82:../main.c     ****   }
+ 287              	 .loc 4 82 0 discriminator 2
+ 288 006c FEE7     	 b .L8
+ 289              	.L10:
+ 290 006e C046     	 .align 2
+ 291              	.L9:
+ 292 0070 00000000 	 .word .LC0
+ 293 0074 20000000 	 .word .LC2
+ 294 0078 00000000 	 .word SPI_CE
+ 295 007c 00000000 	 .word SPI_MASTER_0
+ 296 0080 00000000 	 .word SPI_MASTER_1
+ 297 0084 40000000 	 .word .LC7
+ 298 0088 64000000 	 .word .LC9
  299              	 .cfi_endproc
- 300              	.LFE245:
- 302              	 .section .text.SPI_Test,"ax",%progbits
- 303              	 .align 2
- 304              	 .global SPI_Test
- 305              	 .code 16
- 306              	 .thumb_func
- 308              	SPI_Test:
- 309              	.LFB246:
-  67:../main.c     **** 
-  68:../main.c     **** void SPI_Test(){
- 310              	 .loc 4 68 0
- 311              	 .cfi_startproc
- 312 0000 80B5     	 push {r7,lr}
- 313              	.LCFI17:
- 314              	 .cfi_def_cfa_offset 8
- 315              	 .cfi_offset 7,-8
- 316              	 .cfi_offset 14,-4
- 317 0002 00AF     	 add r7,sp,#0
- 318              	.LCFI18:
- 319              	 .cfi_def_cfa_register 7
-  69:../main.c     **** 	XMC_DEBUG("DAVE APPs initialization failed\n");
-  70:../main.c     **** }
- 320              	 .loc 4 70 0
- 321 0004 BD46     	 mov sp,r7
- 322              	 
- 323 0006 80BD     	 pop {r7,pc}
- 324              	 .cfi_endproc
- 325              	.LFE246:
- 327              	 .section .text.enableSpecialFeatures,"ax",%progbits
- 328              	 .align 2
- 329              	 .global enableSpecialFeatures
- 330              	 .code 16
- 331              	 .thumb_func
- 333              	enableSpecialFeatures:
- 334              	.LFB247:
-  71:../main.c     **** 
-  72:../main.c     **** void enableSpecialFeatures(){
- 335              	 .loc 4 72 0
- 336              	 .cfi_startproc
- 337 0000 80B5     	 push {r7,lr}
- 338              	.LCFI19:
- 339              	 .cfi_def_cfa_offset 8
- 340              	 .cfi_offset 7,-8
- 341              	 .cfi_offset 14,-4
- 342 0002 00AF     	 add r7,sp,#0
- 343              	.LCFI20:
- 344              	 .cfi_def_cfa_register 7
-  73:../main.c     **** 	SPI_MASTER_TransmitWord(&SPI_MASTER_0, ACTIVATE); //activate special features
- 345              	 .loc 4 73 0
- 346 0004 054B     	 ldr r3,.L16
- 347 0006 181C     	 mov r0,r3
- 348 0008 5021     	 mov r1,#80
- 349 000a FFF7FEFF 	 bl SPI_MASTER_TransmitWord
-  74:../main.c     **** 	SPI_MASTER_TransmitWord(&SPI_MASTER_0,0x73);
- 350              	 .loc 4 74 0
- 351 000e 034B     	 ldr r3,.L16
- 352 0010 181C     	 mov r0,r3
- 353 0012 7321     	 mov r1,#115
- 354 0014 FFF7FEFF 	 bl SPI_MASTER_TransmitWord
-  75:../main.c     **** 
-  76:../main.c     **** }
- 355              	 .loc 4 76 0
- 356 0018 BD46     	 mov sp,r7
- 357              	 
- 358 001a 80BD     	 pop {r7,pc}
- 359              	.L17:
+ 300              	.LFE244:
+ 302              	 .section .rodata
+ 303 0077 00       	 .align 2
+ 304              	.LC11:
+ 305 0078 4E4F2041 	 .ascii "NO ACK, Check Communication or slave address. (Abor"
+ 305      434B2C20 
+ 305      43686563 
+ 305      6B20436F 
+ 305      6D6D756E 
+ 306 00ab 74696E67 	 .ascii "ting)\000"
+ 306      2900
+ 307              	 .section .text.Nack_ISR,"ax",%progbits
+ 308              	 .align 2
+ 309              	 .global Nack_ISR
+ 310              	 .code 16
+ 311              	 .thumb_func
+ 313              	Nack_ISR:
+ 314              	.LFB245:
+  83:../main.c     **** }
+  84:../main.c     **** 
+  85:../main.c     **** void Nack_ISR(){
+ 315              	 .loc 4 85 0
+ 316              	 .cfi_startproc
+ 317 0000 80B5     	 push {r7,lr}
+ 318              	.LCFI15:
+ 319              	 .cfi_def_cfa_offset 8
+ 320              	 .cfi_offset 7,-8
+ 321              	 .cfi_offset 14,-4
+ 322 0002 00AF     	 add r7,sp,#0
+ 323              	.LCFI16:
+ 324              	 .cfi_def_cfa_register 7
+  86:../main.c     **** 	XMC_DEBUG("NO ACK, Check Communication or slave address. (Aborting)\n");
+ 325              	 .loc 4 86 0
+ 326 0004 084B     	 ldr r3,.L12
+ 327 0006 181C     	 mov r0,r3
+ 328 0008 FFF7FEFF 	 bl puts
+  87:../main.c     **** 	BMP180_I2C_Status = 2;
+ 329              	 .loc 4 87 0
+ 330 000c 074B     	 ldr r3,.L12+4
+ 331 000e 0222     	 mov r2,#2
+ 332 0010 1A70     	 strb r2,[r3]
+  88:../main.c     **** 	I2C_MASTER_ClearFlag(&I2C_MASTER_0, (uint32_t)XMC_I2C_CH_STATUS_FLAG_NACK_RECEIVED);
+ 333              	 .loc 4 88 0
+ 334 0012 074B     	 ldr r3,.L12+8
+ 335 0014 181C     	 mov r0,r3
+ 336 0016 2021     	 mov r1,#32
+ 337 0018 FFF7FEFF 	 bl I2C_MASTER_ClearFlag
+  89:../main.c     **** 	I2C_MASTER_AbortTransmit(&I2C_MASTER_0);
+ 338              	 .loc 4 89 0
+ 339 001c 044B     	 ldr r3,.L12+8
+ 340 001e 181C     	 mov r0,r3
+ 341 0020 FFF7FEFF 	 bl I2C_MASTER_AbortTransmit
+  90:../main.c     **** }
+ 342              	 .loc 4 90 0
+ 343 0024 BD46     	 mov sp,r7
+ 344              	 
+ 345 0026 80BD     	 pop {r7,pc}
+ 346              	.L13:
+ 347              	 .align 2
+ 348              	.L12:
+ 349 0028 78000000 	 .word .LC11
+ 350 002c 00000000 	 .word BMP180_I2C_Status
+ 351 0030 00000000 	 .word I2C_MASTER_0
+ 352              	 .cfi_endproc
+ 353              	.LFE245:
+ 355              	 .section .rodata
+ 356 00b1 000000   	 .align 2
+ 357              	.LC15:
+ 358 00b4 08415242 	 .ascii "\010ARB lost\000"
+ 358      206C6F73 
+ 358      7400
+ 359              	 .section .text.ARB_LOST_ISR,"ax",%progbits
  360              	 .align 2
- 361              	.L16:
- 362 001c 00000000 	 .word SPI_MASTER_0
- 363              	 .cfi_endproc
- 364              	.LFE247:
- 366              	 .text
- 367              	.Letext0:
- 368              	 .file 5 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
- 369              	 .file 6 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
- 370              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc1_gpio.h"
- 371              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_usic.h"
- 372              	 .file 9 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_spi.h"
- 373              	 .file 10 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/DAVE.h"
- 374              	 .file 11 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Include/cmsis_gcc.h"
- 375              	 .file 12 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Infineon/XMC1400_series/Include/system_XMC1400.h"
- 376              	 .file 13 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/SPI_MASTER/spi_master_extern.h"
- 377              	 .file 14 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/DIGITAL_IO/digital_io_extern.h"
- 378              	 .file 15 "../nRF24L01+.h"
- 379              	 .file 16 "../ADXL345.h"
- 380              	 .file 17 "../BMP180.h"
+ 361              	 .global ARB_LOST_ISR
+ 362              	 .code 16
+ 363              	 .thumb_func
+ 365              	ARB_LOST_ISR:
+ 366              	.LFB246:
+  91:../main.c     **** 
+  92:../main.c     **** void ARB_LOST_ISR(){
+ 367              	 .loc 4 92 0
+ 368              	 .cfi_startproc
+ 369 0000 80B5     	 push {r7,lr}
+ 370              	.LCFI17:
+ 371              	 .cfi_def_cfa_offset 8
+ 372              	 .cfi_offset 7,-8
+ 373              	 .cfi_offset 14,-4
+ 374 0002 00AF     	 add r7,sp,#0
+ 375              	.LCFI18:
+ 376              	 .cfi_def_cfa_register 7
+  93:../main.c     **** 	XMC_DEBUG("\bARB lost\n");
+ 377              	 .loc 4 93 0
+ 378 0004 024B     	 ldr r3,.L15
+ 379 0006 181C     	 mov r0,r3
+ 380 0008 FFF7FEFF 	 bl puts
+  94:../main.c     **** }
+ 381              	 .loc 4 94 0
+ 382 000c BD46     	 mov sp,r7
+ 383              	 
+ 384 000e 80BD     	 pop {r7,pc}
+ 385              	.L16:
+ 386              	 .align 2
+ 387              	.L15:
+ 388 0010 B4000000 	 .word .LC15
+ 389              	 .cfi_endproc
+ 390              	.LFE246:
+ 392              	 .section .rodata
+ 393 00be 0000     	 .align 2
+ 394              	.LC17:
+ 395 00c0 49324320 	 .ascii "I2C error detect\000"
+ 395      6572726F 
+ 395      72206465 
+ 395      74656374 
+ 395      00
+ 396              	 .section .text.Error_detect_ISR,"ax",%progbits
+ 397              	 .align 2
+ 398              	 .global Error_detect_ISR
+ 399              	 .code 16
+ 400              	 .thumb_func
+ 402              	Error_detect_ISR:
+ 403              	.LFB247:
+  95:../main.c     **** void Error_detect_ISR(){
+ 404              	 .loc 4 95 0
+ 405              	 .cfi_startproc
+ 406 0000 80B5     	 push {r7,lr}
+ 407              	.LCFI19:
+ 408              	 .cfi_def_cfa_offset 8
+ 409              	 .cfi_offset 7,-8
+ 410              	 .cfi_offset 14,-4
+ 411 0002 00AF     	 add r7,sp,#0
+ 412              	.LCFI20:
+ 413              	 .cfi_def_cfa_register 7
+  96:../main.c     **** 	XMC_DEBUG("I2C error detect\n");
+ 414              	 .loc 4 96 0
+ 415 0004 0A4B     	 ldr r3,.L18
+ 416 0006 181C     	 mov r0,r3
+ 417 0008 FFF7FEFF 	 bl puts
+  97:../main.c     **** 	I2C_MASTER_ClearFlag(&I2C_MASTER_0, (uint32_t)XMC_I2C_CH_STATUS_FLAG_ERROR);
+ 418              	 .loc 4 97 0
+ 419 000c 094A     	 ldr r2,.L18+4
+ 420 000e 8023     	 mov r3,#128
+ 421 0010 5B00     	 lsl r3,r3,#1
+ 422 0012 101C     	 mov r0,r2
+ 423 0014 191C     	 mov r1,r3
+ 424 0016 FFF7FEFF 	 bl I2C_MASTER_ClearFlag
+  98:../main.c     **** 	I2C_MASTER_AbortTransmit(&I2C_MASTER_0);
+ 425              	 .loc 4 98 0
+ 426 001a 064B     	 ldr r3,.L18+4
+ 427 001c 181C     	 mov r0,r3
+ 428 001e FFF7FEFF 	 bl I2C_MASTER_AbortTransmit
+  99:../main.c     **** 	I2C_MASTER_AbortReceive(&I2C_MASTER_0);
+ 429              	 .loc 4 99 0
+ 430 0022 044B     	 ldr r3,.L18+4
+ 431 0024 181C     	 mov r0,r3
+ 432 0026 FFF7FEFF 	 bl I2C_MASTER_AbortReceive
+ 100:../main.c     **** }
+ 433              	 .loc 4 100 0
+ 434 002a BD46     	 mov sp,r7
+ 435              	 
+ 436 002c 80BD     	 pop {r7,pc}
+ 437              	.L19:
+ 438 002e C046     	 .align 2
+ 439              	.L18:
+ 440 0030 C0000000 	 .word .LC17
+ 441 0034 00000000 	 .word I2C_MASTER_0
+ 442              	 .cfi_endproc
+ 443              	.LFE247:
+ 445              	 .section .text.I2C_Transmit_ISR,"ax",%progbits
+ 446              	 .align 2
+ 447              	 .global I2C_Transmit_ISR
+ 448              	 .code 16
+ 449              	 .thumb_func
+ 451              	I2C_Transmit_ISR:
+ 452              	.LFB248:
+ 101:../main.c     **** void I2C_Transmit_ISR(){
+ 453              	 .loc 4 101 0
+ 454              	 .cfi_startproc
+ 455 0000 80B5     	 push {r7,lr}
+ 456              	.LCFI21:
+ 457              	 .cfi_def_cfa_offset 8
+ 458              	 .cfi_offset 7,-8
+ 459              	 .cfi_offset 14,-4
+ 460 0002 00AF     	 add r7,sp,#0
+ 461              	.LCFI22:
+ 462              	 .cfi_def_cfa_register 7
+ 102:../main.c     **** 	//XMC_DEBUG("I2C device found, Slave ID %d\n",ROTATE_RIGHT(BMP180_DataRead[31],1));
+ 103:../main.c     **** 	//I2C_MASTER_ClearFlag(&I2C_MASTER_0, (uint32_t)XMC_I2C_CH_STATUS_FLAG_r);
+ 104:../main.c     **** 
+ 105:../main.c     **** }
+ 463              	 .loc 4 105 0
+ 464 0004 BD46     	 mov sp,r7
+ 465              	 
+ 466 0006 80BD     	 pop {r7,pc}
+ 467              	 .cfi_endproc
+ 468              	.LFE248:
+ 470              	 .section .text.I2C_Recive_ISR,"ax",%progbits
+ 471              	 .align 2
+ 472              	 .global I2C_Recive_ISR
+ 473              	 .code 16
+ 474              	 .thumb_func
+ 476              	I2C_Recive_ISR:
+ 477              	.LFB249:
+ 106:../main.c     **** void I2C_Recive_ISR(){
+ 478              	 .loc 4 106 0
+ 479              	 .cfi_startproc
+ 480 0000 80B5     	 push {r7,lr}
+ 481              	.LCFI23:
+ 482              	 .cfi_def_cfa_offset 8
+ 483              	 .cfi_offset 7,-8
+ 484              	 .cfi_offset 14,-4
+ 485 0002 00AF     	 add r7,sp,#0
+ 486              	.LCFI24:
+ 487              	 .cfi_def_cfa_register 7
+ 107:../main.c     **** 	//XMC_DEBUG("\nI2C Rx ISR, Data recived %d",BMP180_DataRead[0]);
+ 108:../main.c     **** }
+ 488              	 .loc 4 108 0
+ 489 0004 BD46     	 mov sp,r7
+ 490              	 
+ 491 0006 80BD     	 pop {r7,pc}
+ 492              	 .cfi_endproc
+ 493              	.LFE249:
+ 495              	 .section .rodata
+ 496 00d1 000000   	 .align 2
+ 497              	.LC20:
+ 498 00d4 53504920 	 .ascii "SPI test error\000"
+ 498      74657374 
+ 498      20657272 
+ 498      6F7200
+ 499 00e3 00       	 .section .text.SPI_Test,"ax",%progbits
+ 500              	 .align 2
+ 501              	 .global SPI_Test
+ 502              	 .code 16
+ 503              	 .thumb_func
+ 505              	SPI_Test:
+ 506              	.LFB250:
+ 109:../main.c     **** void SPI_Test(){
+ 507              	 .loc 4 109 0
+ 508              	 .cfi_startproc
+ 509 0000 80B5     	 push {r7,lr}
+ 510              	.LCFI25:
+ 511              	 .cfi_def_cfa_offset 8
+ 512              	 .cfi_offset 7,-8
+ 513              	 .cfi_offset 14,-4
+ 514 0002 00AF     	 add r7,sp,#0
+ 515              	.LCFI26:
+ 516              	 .cfi_def_cfa_register 7
+ 110:../main.c     **** 	XMC_DEBUG("SPI test error\n");
+ 517              	 .loc 4 110 0
+ 518 0004 024B     	 ldr r3,.L23
+ 519 0006 181C     	 mov r0,r3
+ 520 0008 FFF7FEFF 	 bl puts
+ 111:../main.c     **** }
+ 521              	 .loc 4 111 0
+ 522 000c BD46     	 mov sp,r7
+ 523              	 
+ 524 000e 80BD     	 pop {r7,pc}
+ 525              	.L24:
+ 526              	 .align 2
+ 527              	.L23:
+ 528 0010 D4000000 	 .word .LC20
+ 529              	 .cfi_endproc
+ 530              	.LFE250:
+ 532              	 .section .text.enableSpecialFeatures,"ax",%progbits
+ 533              	 .align 2
+ 534              	 .global enableSpecialFeatures
+ 535              	 .code 16
+ 536              	 .thumb_func
+ 538              	enableSpecialFeatures:
+ 539              	.LFB251:
+ 112:../main.c     **** void enableSpecialFeatures(){
+ 540              	 .loc 4 112 0
+ 541              	 .cfi_startproc
+ 542 0000 80B5     	 push {r7,lr}
+ 543              	.LCFI27:
+ 544              	 .cfi_def_cfa_offset 8
+ 545              	 .cfi_offset 7,-8
+ 546              	 .cfi_offset 14,-4
+ 547 0002 00AF     	 add r7,sp,#0
+ 548              	.LCFI28:
+ 549              	 .cfi_def_cfa_register 7
+ 113:../main.c     **** 	SPI_MASTER_TransmitWord(&SPI_MASTER_0, ACTIVATE); //activate special features
+ 550              	 .loc 4 113 0
+ 551 0004 054B     	 ldr r3,.L26
+ 552 0006 181C     	 mov r0,r3
+ 553 0008 5021     	 mov r1,#80
+ 554 000a FFF7FEFF 	 bl SPI_MASTER_TransmitWord
+ 114:../main.c     **** 	SPI_MASTER_TransmitWord(&SPI_MASTER_0,0x73);
+ 555              	 .loc 4 114 0
+ 556 000e 034B     	 ldr r3,.L26
+ 557 0010 181C     	 mov r0,r3
+ 558 0012 7321     	 mov r1,#115
+ 559 0014 FFF7FEFF 	 bl SPI_MASTER_TransmitWord
+ 115:../main.c     **** 
+ 116:../main.c     **** }
+ 560              	 .loc 4 116 0
+ 561 0018 BD46     	 mov sp,r7
+ 562              	 
+ 563 001a 80BD     	 pop {r7,pc}
+ 564              	.L27:
+ 565              	 .align 2
+ 566              	.L26:
+ 567 001c 00000000 	 .word SPI_MASTER_0
+ 568              	 .cfi_endproc
+ 569              	.LFE251:
+ 571              	 .text
+ 572              	.Letext0:
+ 573              	 .file 5 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 574              	 .file 6 "d:\\downloads\\dave_4-4-2_64bit_2018-02-23\\dave-ide-4.4.2-64bit\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+ 575              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Infineon/XMC1400_series/Include/XMC1400.h"
+ 576              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc1_gpio.h"
+ 577              	 .file 9 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_usic.h"
+ 578              	 .file 10 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_spi.h"
+ 579              	 .file 11 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/XMCLib/inc/xmc_i2c.h"
+ 580              	 .file 12 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/I2C_MASTER/i2c_master.h"
+ 581              	 .file 13 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/DAVE.h"
+ 582              	 .file 14 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Include/cmsis_gcc.h"
+ 583              	 .file 15 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Libraries/CMSIS/Infineon/XMC1400_series/Include/system_XMC1400.h"
+ 584              	 .file 16 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/SPI_MASTER/spi_master_extern.h"
+ 585              	 .file 17 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/DIGITAL_IO/digital_io_extern.h"
+ 586              	 .file 18 "C:/Workspaces/DAVE-4.4.2-64Bit/RoverX/Dave/Generated/I2C_MASTER/i2c_master_extern.h"
+ 587              	 .file 19 "../nRF24L01+.h"
+ 588              	 .file 20 "../ADXL345.h"
+ 589              	 .file 21 "../BMP180.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
     {standard input}:18     .text.XMC_GPIO_SetOutputLow:00000000 $t
@@ -2470,28 +2739,48 @@ DEFINED SYMBOLS
                             *COM*:00000020 ADXL345_DataRead
                             *COM*:00000020 BMP180_DataSent
                             *COM*:00000020 BMP180_DataRead
-    {standard input}:188    .data.data:00000000 data
-    {standard input}:185    .data.data:00000000 $d
-    {standard input}:191    .text.main:00000000 $t
-    {standard input}:196    .text.main:00000000 main
-    {standard input}:270    .text.main:00000058 $d
-    {standard input}:278    .text.Nack_ISR:00000000 $t
-    {standard input}:283    .text.Nack_ISR:00000000 Nack_ISR
-    {standard input}:303    .text.SPI_Test:00000000 $t
-    {standard input}:308    .text.SPI_Test:00000000 SPI_Test
-    {standard input}:328    .text.enableSpecialFeatures:00000000 $t
-    {standard input}:333    .text.enableSpecialFeatures:00000000 enableSpecialFeatures
-    {standard input}:362    .text.enableSpecialFeatures:0000001c $d
+                            *COM*:00000001 BMP180_I2C_Status
+    {standard input}:189    .data.data:00000000 data
+    {standard input}:186    .data.data:00000000 $d
+    {standard input}:195    .data.slaveID:00000000 slaveID
+    {standard input}:198    .rodata:00000000 $d
+    {standard input}:211    .text.main:00000000 $t
+    {standard input}:216    .text.main:00000000 main
+    {standard input}:292    .text.main:00000070 $d
+    {standard input}:308    .text.Nack_ISR:00000000 $t
+    {standard input}:313    .text.Nack_ISR:00000000 Nack_ISR
+    {standard input}:349    .text.Nack_ISR:00000028 $d
+    {standard input}:360    .text.ARB_LOST_ISR:00000000 $t
+    {standard input}:365    .text.ARB_LOST_ISR:00000000 ARB_LOST_ISR
+    {standard input}:388    .text.ARB_LOST_ISR:00000010 $d
+    {standard input}:397    .text.Error_detect_ISR:00000000 $t
+    {standard input}:402    .text.Error_detect_ISR:00000000 Error_detect_ISR
+    {standard input}:440    .text.Error_detect_ISR:00000030 $d
+    {standard input}:446    .text.I2C_Transmit_ISR:00000000 $t
+    {standard input}:451    .text.I2C_Transmit_ISR:00000000 I2C_Transmit_ISR
+    {standard input}:471    .text.I2C_Recive_ISR:00000000 $t
+    {standard input}:476    .text.I2C_Recive_ISR:00000000 I2C_Recive_ISR
+    {standard input}:500    .text.SPI_Test:00000000 $t
+    {standard input}:505    .text.SPI_Test:00000000 SPI_Test
+    {standard input}:528    .text.SPI_Test:00000010 $d
+    {standard input}:533    .text.enableSpecialFeatures:00000000 $t
+    {standard input}:538    .text.enableSpecialFeatures:00000000 enableSpecialFeatures
+    {standard input}:567    .text.enableSpecialFeatures:0000001c $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
 XMC_SPI_CH_DisableSlaveSelect
 XMC_SPI_CH_Transmit
 DAVE_Init
-Init_RF24
-TX_Mode
-Init_ADXL345
-BMP180_Test
+initialise_monitor_handles
+puts
+Text_Communication
+printf
+BMP180_init
 SPI_CE
 SPI_MASTER_0
 SPI_MASTER_1
+I2C_MASTER_ClearFlag
+I2C_MASTER_AbortTransmit
+I2C_MASTER_0
+I2C_MASTER_AbortReceive

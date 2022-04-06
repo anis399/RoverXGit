@@ -570,7 +570,7 @@ static SPI_MASTER_STATUS_t SPI_MASTER_1_lInit(void)
             
   /* Configure transmit FIFO settings */
   XMC_USIC_CH_TXFIFO_Configure(XMC_SPI0_CH0,
-                               48U,
+                               32U,
                                (XMC_USIC_CH_FIFO_SIZE_t)XMC_USIC_CH_FIFO_SIZE_16WORDS,
                                1U);
 
@@ -581,7 +581,7 @@ static SPI_MASTER_STATUS_t SPI_MASTER_1_lInit(void)
                                              (uint32_t)SPI_MASTER_SR_ID_4);
   /* Configure receive FIFO settings */
   XMC_USIC_CH_RXFIFO_Configure(XMC_SPI0_CH0,
-                               32U,
+                               16U,
                                (XMC_USIC_CH_FIFO_SIZE_t)XMC_USIC_CH_FIFO_SIZE_16WORDS,
                                0U);
              

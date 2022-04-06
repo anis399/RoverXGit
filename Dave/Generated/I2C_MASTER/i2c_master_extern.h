@@ -65,7 +65,15 @@ extern "C" {
 #define I2C_MASTER_0_RX_HANDLER	IRQ_Hdlr_12
 
 extern I2C_MASTER_t I2C_MASTER_0;
+extern void I2C_Transmit_ISR(void);
+
+extern void I2C_Recive_ISR(void);
+
 extern void Nack_ISR(void);
+
+extern void ARB_LOST_ISR(void);
+
+extern void Error_detect_ISR(void);
 
 void I2C_MASTER_ProtocolHandler(I2C_MASTER_t * const handle);
 #ifdef __cplusplus

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project MotherSystem_Version="" Name="SPI_test" Path="C:\Workspaces\DAVE-4.4.2-64Bit\SPI_test">
+<Project MotherSystem_Version="" Name="RoverX" Path="C:\Workspaces\DAVE-4.4.2-64Bit\RoverX">
     <COMPILER>
         <Name>ARM_GCC_HOME</Name>
         <Version/>
@@ -168,5 +168,6 @@
     <Preprocessor_Symbols>
         <Assembler_Symbol>XMC1404_Q064x0200=</Assembler_Symbol>
         <Compiler_Symbol>XMC1404_Q064x0200=</Compiler_Symbol>
+        <Compiler_Symbol>XMC_DEBUG_ENABLE=</Compiler_Symbol>
     </Preprocessor_Symbols>
 </Project>

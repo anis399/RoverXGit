@@ -28,6 +28,66 @@ d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64b
                               d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o) (_impure_ptr)
 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
                               ./Startup/startup_XMC1400.o (__libc_init_array)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+                              ./main.o (printf)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+                              ./BMP180.o (puts)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o) (__swbuf_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o) (__swsetup_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o) (_fflush_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o) (__sinit)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (_fwalk)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (memset)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o) (_free_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (_malloc_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (__sread)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_write_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_close_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_lseek_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o) (memcpy)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o) (memmove)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_read_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o) (errno)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                              ./main.o (initialise_monitor_handles)
+d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+                              d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o) (strlen)
 
 Allocating common symbols
 Common symbol       size              file
@@ -35,9 +95,11 @@ Common symbol       size              file
 ADXL345_DataSent    0x20              ./ADXL345.o
 BMP180_DataRead     0x20              ./BMP180.o
 BMP180_DataSent     0x20              ./BMP180.o
+errno               0x4               d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
 NRF24ReadData       0x20              ./main.o
 ADXL345_DataRead    0x20              ./ADXL345.o
 Config_Regiter      0x1               ./main.o
+BMP180_I2C_Status   0x1               ./BMP180.o
 NRF24SendData       0x20              ./main.o
 Status_reg          0x1               ./main.o
 
@@ -794,8 +856,6 @@ Discarded input sections
                 0x00000000       0x30 ./Libraries/XMCLib/src/xmc_math.o
  .text.XMC_MATH_GetEventStatus
                 0x00000000       0x3c ./Libraries/XMCLib/src/xmc_math.o
- .text.__aeabi_uidivmod
-                0x00000000       0x74 ./Libraries/XMCLib/src/xmc_math.o
  .text.__aeabi_idivmod
                 0x00000000       0x74 ./Libraries/XMCLib/src/xmc_math.o
  .text.XMC_MATH_CORDIC_Cos
@@ -1263,21 +1323,32 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Libraries/Newlib/syscalls.o
  .bss.__dso_handle
                 0x00000000        0x4 ./Libraries/Newlib/syscalls.o
- .text._sbrk    0x00000000       0x68 ./Libraries/Newlib/syscalls.o
- .bss.heap_ptr.4331
-                0x00000000        0x4 ./Libraries/Newlib/syscalls.o
  .comment       0x00000000       0x71 ./Libraries/Newlib/syscalls.o
  .text          0x00000000        0x0 ./Dave/Generated/SPI_MASTER/spi_master.o
  .data          0x00000000        0x0 ./Dave/Generated/SPI_MASTER/spi_master.o
  .bss           0x00000000        0x0 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_SetInputSource
                 0x00000000       0x48 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_EnableEvent
+                0x00000000       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_TriggerServiceRequest
+                0x00000000       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_TXFIFO_EnableEvent
+                0x00000000       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_TXFIFO_Flush
+                0x00000000       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_RXFIFO_EnableEvent
+                0x00000000       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_USIC_CH_RXFIFO_Flush
+                0x00000000       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_ConfigureShiftClockOutput
                 0x00000000       0x2c ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_SetMode
                 0x00000000       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_SPI_CH_Start
                 0x00000000       0x18 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.XMC_SPI_CH_SetTransmitMode
+                0x00000000       0x30 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_SPI_CH_SetSlaveSelectDelay
                 0x00000000       0x30 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_SPI_CH_ConfigureShiftClockOutput
@@ -1290,14 +1361,24 @@ Discarded input sections
                 0x00000000       0x98 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_SetBaudRate
                 0x00000000       0xcc ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.SPI_MASTER_Transmit
+                0x00000000       0x48 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_Receive
                 0x00000000       0x48 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.SPI_MASTER_StartTransmitIRQ
+                0x00000000      0x104 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_StartReceiveIRQ
                 0x00000000       0xb8 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.SPI_MASTER_Transfer
+                0x00000000       0xc8 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_AbortReceive
                 0x00000000       0xac ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_AbortTransmit
                 0x00000000       0x94 ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.SPI_MASTER_lReceiveIRQ
+                0x00000000       0xbc ./Dave/Generated/SPI_MASTER/spi_master.o
+ .text.SPI_MASTER_lStdRBUFFlush
+                0x00000000       0x20 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_lPortConfig
                 0x00000000      0x138 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_lPortModeSet
@@ -1306,7 +1387,7 @@ Discarded input sections
                 0x00000000      0x144 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_lValidateModeChange
                 0x00000000       0xa0 ./Dave/Generated/SPI_MASTER/spi_master.o
- .data.dummy_data.7074
+ .data.dummy_data.7801
                 0x00000000        0x4 ./Dave/Generated/SPI_MASTER/spi_master.o
  .comment       0x00000000       0x71 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text          0x00000000        0x0 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
@@ -1316,32 +1397,8 @@ Discarded input sections
  .text          0x00000000        0x0 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .data          0x00000000        0x0 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .bss           0x00000000        0x0 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_EnableEvent
-                0x00000000       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_TXFIFO_Flush
-                0x00000000       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_RXFIFO_EnableEvent
-                0x00000000       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_RXFIFO_Flush
-                0x00000000       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.I2C_MASTER_GetAppVersion
                 0x00000000       0x60 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_Receive
-                0x00000000       0x64 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_lReceive_FIFOData
-                0x00000000      0x20c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_lReceive_StdData
-                0x00000000      0x178 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_AbortTransmitIRQ
-                0x00000000       0x60 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_StartReceiveIRQ
-                0x00000000      0x10c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_lAbortReceiveIRQ
-                0x00000000       0x70 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_AbortTransmit
-                0x00000000       0x60 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_AbortReceive
-                0x00000000       0x48 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .comment       0x00000000       0x71 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text          0x00000000        0x0 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .data          0x00000000        0x0 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
@@ -1401,6 +1458,17 @@ Discarded input sections
  .text          0x00000000        0x0 ./ADXL345.o
  .data          0x00000000        0x0 ./ADXL345.o
  .bss           0x00000000        0x0 ./ADXL345.o
+ .text.SPI_MASTER_EnableSlaveSelectSignal
+                0x00000000       0x30 ./ADXL345.o
+ .text.SPI_MASTER_DisableSlaveSelectSignal
+                0x00000000       0x18 ./ADXL345.o
+ .text.Init_ADXL345
+                0x00000000       0x18 ./ADXL345.o
+ .text.Set_DataFormat
+                0x00000000       0x20 ./ADXL345.o
+ .text.Set_FIFO_CTR
+                0x00000000       0x20 ./ADXL345.o
+ .text.PowerOn  0x00000000       0x10 ./ADXL345.o
  .text.PowerOff
                 0x00000000       0x10 ./ADXL345.o
  .text.GetdeviceID
@@ -1408,6 +1476,8 @@ Discarded input sections
  .text.Get_AxisReadings
                 0x00000000       0x44 ./ADXL345.o
  .text.ReadRegister_SingleByte
+                0x00000000       0x60 ./ADXL345.o
+ .text.WriteRegister_SingleByte
                 0x00000000       0x60 ./ADXL345.o
  .text.Set_DUR  0x00000000       0x20 ./ADXL345.o
  .text.Set_Latent
@@ -1422,10 +1492,26 @@ Discarded input sections
                 0x00000000       0x28 ./ADXL345.o
  .text.Set_ThreshTap
                 0x00000000       0x20 ./ADXL345.o
+ .debug_info    0x00000000     0x1241 ./ADXL345.o
+ .debug_abbrev  0x00000000      0x23c ./ADXL345.o
+ .debug_loc     0x00000000      0x3b4 ./ADXL345.o
+ .debug_aranges
+                0x00000000       0xa8 ./ADXL345.o
+ .debug_ranges  0x00000000       0x98 ./ADXL345.o
+ .debug_line    0x00000000      0x459 ./ADXL345.o
+ .debug_str     0x00000000     0x1ad3 ./ADXL345.o
  .comment       0x00000000       0x71 ./ADXL345.o
+ .debug_frame   0x00000000      0x23c ./ADXL345.o
+ .ARM.attributes
+                0x00000000       0x31 ./ADXL345.o
+ COMMON         0x00000000       0x40 ./ADXL345.o
  .text          0x00000000        0x0 ./BMP180.o
  .data          0x00000000        0x0 ./BMP180.o
  .bss           0x00000000        0x0 ./BMP180.o
+ .text.I2C_Scanner
+                0x00000000       0x88 ./BMP180.o
+ .text.BMP180_Test
+                0x00000000       0x48 ./BMP180.o
  .comment       0x00000000       0x71 ./BMP180.o
  .text          0x00000000        0x0 ./main.o
  .data          0x00000000        0x0 ./main.o
@@ -1433,9 +1519,11 @@ Discarded input sections
  .text.SPI_MASTER_TransmitWord
                 0x00000000       0x2c ./main.o
  .data.data     0x00000000        0xc ./main.o
+ .data.slaveID  0x00000000        0x1 ./main.o
  .text.enableSpecialFeatures
                 0x00000000       0x20 ./main.o
  .comment       0x00000000       0x71 ./main.o
+ COMMON         0x00000000       0x45 ./main.o
  .text          0x00000000        0x0 ./nRF24L01+.o
  .data          0x00000000        0x0 ./nRF24L01+.o
  .bss           0x00000000        0x0 ./nRF24L01+.o
@@ -1443,35 +1531,66 @@ Discarded input sections
                 0x00000000       0x20 ./nRF24L01+.o
  .text.XMC_GPIO_SetOutputLow
                 0x00000000       0x24 ./nRF24L01+.o
+ .text.SPI_MASTER_EnableSlaveSelectSignal
+                0x00000000       0x30 ./nRF24L01+.o
+ .text.SPI_MASTER_DisableSlaveSelectSignal
+                0x00000000       0x18 ./nRF24L01+.o
  .text.SPI_MASTER_TransmitWord
                 0x00000000       0x2c ./nRF24L01+.o
  .text.DIGITAL_IO_SetOutputHigh
                 0x00000000       0x20 ./nRF24L01+.o
  .text.DIGITAL_IO_SetOutputLow
                 0x00000000       0x20 ./nRF24L01+.o
+ .rodata        0x00000000       0x2c ./nRF24L01+.o
+ .text.Init_RF24
+                0x00000000       0x84 ./nRF24L01+.o
  .text.TestCom  0x00000000       0x14 ./nRF24L01+.o
  .text.Send_OneByte
                 0x00000000       0xbc ./nRF24L01+.o
  .text.Send_Word
                 0x00000000       0xe0 ./nRF24L01+.o
+ .text.setChannel
+                0x00000000       0x5c ./nRF24L01+.o
  .text.getChannel
                 0x00000000       0x58 ./nRF24L01+.o
+ .text.setRetries
+                0x00000000       0x8c ./nRF24L01+.o
  .text.getRetriesDelay
                 0x00000000       0x5c ./nRF24L01+.o
  .text.getRetriesCount
                 0x00000000       0x5c ./nRF24L01+.o
+ .text.setRadiation
+                0x00000000       0x88 ./nRF24L01+.o
  .text.getRadiation
                 0x00000000       0x58 ./nRF24L01+.o
+ .text.setAddressWidth
+                0x00000000       0x80 ./nRF24L01+.o
  .text.getAddressWidth
                 0x00000000       0x60 ./nRF24L01+.o
+ .text.setFeatures
+                0x00000000       0x70 ./nRF24L01+.o
  .text.getFeatures
                 0x00000000       0x58 ./nRF24L01+.o
  .text.disableDynamicPayLoads
                 0x00000000       0x60 ./nRF24L01+.o
  .text.enableDynamicPayLoads
                 0x00000000       0x5c ./nRF24L01+.o
+ .text.enableAutoACK
+                0x00000000       0x50 ./nRF24L01+.o
+ .text.enableRXpipe
+                0x00000000       0x74 ./nRF24L01+.o
+ .text.getRXpipesEnabled
+                0x00000000       0x58 ./nRF24L01+.o
  .text.setPayloadSizeAllPipes
                 0x00000000       0x80 ./nRF24L01+.o
+ .text.setPayloadSize
+                0x00000000       0x80 ./nRF24L01+.o
+ .text.setRxPipeAddress
+                0x00000000       0xc4 ./nRF24L01+.o
+ .text.setTxPipeAddress
+                0x00000000       0x9c ./nRF24L01+.o
+ .text.resetStatus
+                0x00000000       0x50 ./nRF24L01+.o
  .text.Is_TX_FIFO_full
                 0x00000000       0x64 ./nRF24L01+.o
  .text.RX_Data_PipeNum_Payload_Available
@@ -1482,7 +1601,24 @@ Discarded input sections
                 0x00000000       0x68 ./nRF24L01+.o
  .text.Is_MAX_RT
                 0x00000000       0x68 ./nRF24L01+.o
+ .text.flushTX  0x00000000       0x50 ./nRF24L01+.o
+ .text.flushRX  0x00000000       0x50 ./nRF24L01+.o
+ .text.PowerUP  0x00000000       0x6c ./nRF24L01+.o
+ .text.TX_Mode  0x00000000       0x5c ./nRF24L01+.o
+ .text.getConfigRegister
+                0x00000000       0x64 ./nRF24L01+.o
+ .debug_info    0x00000000     0x179c ./nRF24L01+.o
+ .debug_abbrev  0x00000000      0x2f3 ./nRF24L01+.o
+ .debug_loc     0x00000000      0x834 ./nRF24L01+.o
+ .debug_aranges
+                0x00000000      0x168 ./nRF24L01+.o
+ .debug_ranges  0x00000000      0x158 ./nRF24L01+.o
+ .debug_line    0x00000000      0x908 ./nRF24L01+.o
+ .debug_str     0x00000000     0x1d20 ./nRF24L01+.o
  .comment       0x00000000       0x71 ./nRF24L01+.o
+ .debug_frame   0x00000000      0x504 ./nRF24L01+.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF24L01+.o
  .text          0x00000000       0x30 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunssfsi.o)
  .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunssfsi.o)
  .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunssfsi.o)
@@ -1552,26 +1688,178 @@ Discarded input sections
  .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
  .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
  .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
- .text.__errno  0x00000000        0xc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
- .debug_frame   0x00000000       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
- .ARM.attributes
-                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
  .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- .data.impure_data
-                0x00000000       0x60 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- .rodata.str1.1
-                0x00000000        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- .rodata._global_impure_ptr
-                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
  .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
  .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x18 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x10 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x18 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x18 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x38 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x00000000       0x1c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x1c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000      0x2b0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x00000000       0x30 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000       0x12 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x00000000       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000000       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x00000000       0x4c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000       0x30 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xcc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x00000000       0x16 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._getpid  0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._sbrk    0x00000000       0x34 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._stat    0x00000000       0x3c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._swiopen
+                0x00000000       0xb8 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._open    0x00000000       0x10 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._link    0x00000000       0x10 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._unlink  0x00000000       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._gettimeofday
+                0x00000000       0x26 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._clock   0x00000000       0x12 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._times   0x00000000       0x18 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._system  0x00000000       0x3c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text._rename  0x00000000       0x34 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .bss.heap_end.5855
+                0x00000000        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+ .text.strlen   0x00000000        0xe d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-strlen.o)
 
 Memory Configuration
 
@@ -1635,6 +1923,7 @@ END GROUP
 START GROUP
 LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
 LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a
 LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
 END GROUP
 START GROUP
@@ -1642,10 +1931,15 @@ LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.
 LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
 LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
 END GROUP
+START GROUP
+LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+LOAD d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a
+END GROUP
                 0x00000400                stack_size = DEFINED (stack_size)?stack_size:0x400
                 0x00000004                no_init_size = 0x4
 
-.text           0x10001000     0x4470
+.text           0x10001000     0x5514
                 0x10001000                sText = .
  *(.reset)
  .reset         0x10001000       0xa0 ./Startup/startup_XMC1400.o
@@ -1774,385 +2068,476 @@ END GROUP
  .text.__aeabi_idiv
                 0x10001d0c       0x50 ./Libraries/XMCLib/src/xmc_math.o
                 0x10001d0c                __aeabi_idiv
+ .text.__aeabi_uidivmod
+                0x10001d5c       0x74 ./Libraries/XMCLib/src/xmc_math.o
+                0x10001d5c                __aeabi_uidivmod
  .text.XMC_SPI_CH_ClearStatusFlag
-                0x10001d5c       0x1c ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001dd0       0x1c ./Libraries/XMCLib/src/xmc_spi.o
  .text.XMC_SPI_CH_InitEx
-                0x10001d78       0x94 ./Libraries/XMCLib/src/xmc_spi.o
-                0x10001d78                XMC_SPI_CH_InitEx
+                0x10001dec       0x94 ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001dec                XMC_SPI_CH_InitEx
  .text.XMC_SPI_CH_EnableSlaveSelect
-                0x10001e0c       0x2c ./Libraries/XMCLib/src/xmc_spi.o
-                0x10001e0c                XMC_SPI_CH_EnableSlaveSelect
+                0x10001e80       0x2c ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001e80                XMC_SPI_CH_EnableSlaveSelect
  .text.XMC_SPI_CH_DisableSlaveSelect
-                0x10001e38       0x28 ./Libraries/XMCLib/src/xmc_spi.o
-                0x10001e38                XMC_SPI_CH_DisableSlaveSelect
+                0x10001eac       0x28 ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001eac                XMC_SPI_CH_DisableSlaveSelect
  .text.XMC_SPI_CH_GetReceivedData
-                0x10001e60       0x40 ./Libraries/XMCLib/src/xmc_spi.o
-                0x10001e60                XMC_SPI_CH_GetReceivedData
+                0x10001ed4       0x40 ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001ed4                XMC_SPI_CH_GetReceivedData
  .text.XMC_SPI_CH_DisableEvent
-                0x10001ea0       0x38 ./Libraries/XMCLib/src/xmc_spi.o
-                0x10001ea0                XMC_SPI_CH_DisableEvent
+                0x10001f14       0x38 ./Libraries/XMCLib/src/xmc_spi.o
+                0x10001f14                XMC_SPI_CH_DisableEvent
  .text.XMC_USIC_CH_Enable
-                0x10001ed8       0x78 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10001ed8                XMC_USIC_CH_Enable
+                0x10001f4c       0x78 ./Libraries/XMCLib/src/xmc_usic.o
+                0x10001f4c                XMC_USIC_CH_Enable
  .text.XMC_USIC_CH_SetBaudrate
-                0x10001f50       0xf4 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10001f50                XMC_USIC_CH_SetBaudrate
+                0x10001fc4       0xf4 ./Libraries/XMCLib/src/xmc_usic.o
+                0x10001fc4                XMC_USIC_CH_SetBaudrate
  .text.XMC_USIC_CH_SetBaudrateEx
-                0x10002044      0x10c ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002044                XMC_USIC_CH_SetBaudrateEx
+                0x100020b8      0x10c ./Libraries/XMCLib/src/xmc_usic.o
+                0x100020b8                XMC_USIC_CH_SetBaudrateEx
  .text.XMC_USIC_CH_TXFIFO_Configure
-                0x10002150       0x5c ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002150                XMC_USIC_CH_TXFIFO_Configure
+                0x100021c4       0x5c ./Libraries/XMCLib/src/xmc_usic.o
+                0x100021c4                XMC_USIC_CH_TXFIFO_Configure
  .text.XMC_USIC_CH_RXFIFO_Configure
-                0x100021ac       0x64 ./Libraries/XMCLib/src/xmc_usic.o
-                0x100021ac                XMC_USIC_CH_RXFIFO_Configure
+                0x10002220       0x64 ./Libraries/XMCLib/src/xmc_usic.o
+                0x10002220                XMC_USIC_CH_RXFIFO_Configure
  .text.XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit
-                0x10002210       0x38 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002210                XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit
+                0x10002284       0x38 ./Libraries/XMCLib/src/xmc_usic.o
+                0x10002284                XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit
  .text.XMC_USIC_CH_SetInterruptNodePointer
-                0x10002248       0x40 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002248                XMC_USIC_CH_SetInterruptNodePointer
+                0x100022bc       0x40 ./Libraries/XMCLib/src/xmc_usic.o
+                0x100022bc                XMC_USIC_CH_SetInterruptNodePointer
  .text.XMC_USIC_CH_TXFIFO_SetInterruptNodePointer
-                0x10002288       0x48 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002288                XMC_USIC_CH_TXFIFO_SetInterruptNodePointer
+                0x100022fc       0x48 ./Libraries/XMCLib/src/xmc_usic.o
+                0x100022fc                XMC_USIC_CH_TXFIFO_SetInterruptNodePointer
  .text.XMC_USIC_CH_RXFIFO_SetInterruptNodePointer
-                0x100022d0       0x48 ./Libraries/XMCLib/src/xmc_usic.o
-                0x100022d0                XMC_USIC_CH_RXFIFO_SetInterruptNodePointer
+                0x10002344       0x48 ./Libraries/XMCLib/src/xmc_usic.o
+                0x10002344                XMC_USIC_CH_RXFIFO_SetInterruptNodePointer
  .text.XMC_USIC_Enable
-                0x10002318       0x54 ./Libraries/XMCLib/src/xmc_usic.o
-                0x10002318                XMC_USIC_Enable
- .text._init    0x1000236c        0x8 ./Libraries/Newlib/syscalls.o
-                0x1000236c                _init
+                0x1000238c       0x54 ./Libraries/XMCLib/src/xmc_usic.o
+                0x1000238c                XMC_USIC_Enable
+ .text._sbrk    0x100023e0       0x68 ./Libraries/Newlib/syscalls.o
+                0x100023e0                _sbrk
+ .text._init    0x10002448        0x8 ./Libraries/Newlib/syscalls.o
+                0x10002448                _init
  .text.XMC_USIC_CH_WriteToTBUFTCI
-                0x10002374       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_EnableEvent
-                0x1000239c       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002450       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_DisableEvent
-                0x100023b8       0x20 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002478       0x20 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_GetTransmitBufferStatus
-                0x100023d8       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002498       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_GetReceiveBufferStatus
-                0x100023f4       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_TriggerServiceRequest
-                0x10002410       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_TXFIFO_EnableEvent
-                0x1000242c       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100024b4       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_TXFIFO_DisableEvent
-                0x10002454       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100024d0       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_TXFIFO_PutDataHPCMode
-                0x1000247c       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_TXFIFO_Flush
-                0x100024a4       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100024f8       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_TXFIFO_IsFull
-                0x100024c0       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002520       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_TXFIFO_IsEmpty
-                0x100024e4       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_RXFIFO_EnableEvent
-                0x10002508       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002544       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_RXFIFO_DisableEvent
-                0x10002530       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_USIC_CH_RXFIFO_Flush
-                0x10002558       0x1c ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002568       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.XMC_USIC_CH_RXFIFO_IsEmpty
-                0x10002574       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.XMC_SPI_CH_SetTransmitMode
-                0x10002598       0x30 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002590       0x24 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_Init
-                0x100025c8       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x100025c8                SPI_MASTER_Init
- .text.SPI_MASTER_Transmit
-                0x100025f0       0x48 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x100025f0                SPI_MASTER_Transmit
- .text.SPI_MASTER_StartTransmitIRQ
-                0x10002638      0x104 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x10002638                SPI_MASTER_StartTransmitIRQ
- .text.SPI_MASTER_Transfer
-                0x1000273c       0xc8 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x1000273c                SPI_MASTER_Transfer
+                0x100025b4       0x28 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100025b4                SPI_MASTER_Init
  .text.SPI_MASTER_lTransmitHandler
-                0x10002804      0x1f0 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x10002804                SPI_MASTER_lTransmitHandler
- .text.SPI_MASTER_lReceiveIRQ
-                0x100029f4       0xbc ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100025dc      0x1f0 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100025dc                SPI_MASTER_lTransmitHandler
  .text.SPI_MASTER_lReceiveHandler
-                0x10002ab0      0x1c8 ./Dave/Generated/SPI_MASTER/spi_master.o
-                0x10002ab0                SPI_MASTER_lReceiveHandler
+                0x100027cc      0x1c8 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x100027cc                SPI_MASTER_lReceiveHandler
  .text.SPI_MASTER_lFIFORead
-                0x10002c78       0xd8 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002994       0xd8 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.SPI_MASTER_lReconfigureRxFIFO
-                0x10002d50       0x70 ./Dave/Generated/SPI_MASTER/spi_master.o
- .text.SPI_MASTER_lStdRBUFFlush
-                0x10002dc0       0x20 ./Dave/Generated/SPI_MASTER/spi_master.o
+                0x10002a6c       0x70 ./Dave/Generated/SPI_MASTER/spi_master.o
  .text.__NVIC_EnableIRQ
-                0x10002de0       0x34 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002adc       0x34 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.__NVIC_SetPriority
-                0x10002e14       0xd4 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002b10       0xd4 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_USIC_CH_SetInputSource
-                0x10002ee8       0x48 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002be4       0x48 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_USIC_CH_SetWordLength
-                0x10002f30       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002c2c       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_USIC_CH_SetFrameLength
-                0x10002f60       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002c5c       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_USIC_CH_ConfigureShiftClockOutput
-                0x10002f90       0x2c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002c8c       0x2c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_USIC_CH_SetMode
-                0x10002fbc       0x28 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002cb8       0x28 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_Init
-                0x10002fe4       0x20 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002ce0       0x20 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_Start
-                0x10003004       0x18 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002d00       0x18 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_SetBitOrderMsbFirst
-                0x1000301c       0x1c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002d18       0x1c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_SetSlaveSelectDelay
-                0x10003038       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002d34       0x30 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_ConfigureShiftClockOutput
-                0x10003068       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002d64       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_SetWordLength
-                0x1000308c       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002d88       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_SetFrameLength
-                0x100030b0       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002dac       0x24 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.XMC_SPI_CH_SetInputSource
-                0x100030d4       0x58 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002dd0       0x58 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.SPI_MASTER_0_lInit
-                0x1000312c      0x170 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002e28      0x170 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.IRQ10_Handler
-                0x1000329c       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x1000329c                IRQ10_Handler
+                0x10002f98       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002f98                IRQ10_Handler
  .text.IRQ9_Handler
-                0x100032b0       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x100032b0                IRQ9_Handler
+                0x10002fac       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002fac                IRQ9_Handler
  .text.SPI_MASTER_1_lInit
-                0x100032c4      0x198 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10002fc0      0x198 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
  .text.IRQ13_Handler
-                0x1000345c       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x1000345c                IRQ13_Handler
+                0x10003158       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10003158                IRQ13_Handler
  .text.IRQ11_Handler
-                0x10003470       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10003470                IRQ11_Handler
+                0x1000316c       0x14 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x1000316c                IRQ11_Handler
  .text.__NVIC_ClearPendingIRQ
-                0x10003484       0x34 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003180       0x34 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_USIC_CH_EnableEvent
+                0x100031b4       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_DisableEvent
-                0x100034b8       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100031d0       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_GetTransmitBufferStatus
-                0x100034d8       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100031f0       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_TriggerServiceRequest
-                0x100034f4       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x1000320c       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_TXFIFO_EnableEvent
-                0x10003510       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003228       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_TXFIFO_DisableEvent
-                0x10003538       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003250       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_USIC_CH_TXFIFO_Flush
+                0x10003278       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_TXFIFO_IsFull
-                0x10003560       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003294       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_TXFIFO_IsEmpty
-                0x10003584       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_RXFIFO_DisableEvent
-                0x100035a8       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_USIC_CH_RXFIFO_IsEmpty
-                0x100035d0       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_I2C_CH_SetInterruptNodePointer
-                0x100035f4       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_I2C_CH_GetStatusFlag
-                0x10003618       0x14 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.XMC_I2C_CH_ClearStatusFlag
-                0x1000362c       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_SetRXFIFOTriggerLimit
-                0x10003648       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_IsTXFIFOFull
-                0x10003670       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_IsRXFIFOEmpty
-                0x1000368c       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_GetReceivedByte
-                0x100036a8       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_TransmitByte
-                0x100036c4       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_EnableEvent
-                0x100036e8       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_DisableEvent
-                0x10003708       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_ReceiveACK
-                0x10003728       0x18 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_ReceiveNACK
-                0x10003740       0x18 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_SendStop
-                0x10003758       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_SendStart
-                0x1000377c       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_SendRepeatedStart
-                0x100037b4       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.calculate_minfifosize
-                0x100037ec       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_Init
-                0x10003814       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10003814                I2C_MASTER_Init
- .text.I2C_MASTER_GetFlagStatus
-                0x1000384c       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x1000384c                I2C_MASTER_GetFlagStatus
- .text.I2C_MASTER_ClearFlag
-                0x10003874       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10003874                I2C_MASTER_ClearFlag
- .text.I2C_MASTER_Transmit
-                0x10003894       0x5c ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10003894                I2C_MASTER_Transmit
- .text.I2C_MASTER_TransmitHandler
-                0x100038f0      0x298 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x100038f0                I2C_MASTER_TransmitHandler
- .text.I2C_MASTER_lSendStop_JumpTo_TxCallback
-                0x10003b88       0x68 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_lSendStart_Or_RepeatedStart
-                0x10003bf0       0x64 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_StartTransmitIRQ
-                0x10003c54      0x13c ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10003c54                I2C_MASTER_StartTransmitIRQ
- .text.I2C_MASTER_ReceiveHandler
-                0x10003d90      0x290 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10003d90                I2C_MASTER_ReceiveHandler
- .text.I2C_MASTER_lSendStop_JumpTo_RxCallback
-                0x10004020       0x74 ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.I2C_MASTER_ProtocolHandler
-                0x10004094       0x90 ./Dave/Generated/I2C_MASTER/i2c_master.o
-                0x10004094                I2C_MASTER_ProtocolHandler
- .text.I2C_MASTER_lReconfigureRxFIFO
-                0x10004124       0x9c ./Dave/Generated/I2C_MASTER/i2c_master.o
- .text.__NVIC_EnableIRQ
-                0x100041c0       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
- .text.__NVIC_SetPriority
-                0x100041f4       0xd4 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
- .text.XMC_USIC_CH_SetInputSource
-                0x100042c8       0x48 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
- .text.XMC_USIC_CH_EnableInputDigitalFilter
-                0x10004310       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
- .text.XMC_USIC_CH_EnableInputSync
-                0x10004344       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
- .text.XMC_USIC_CH_TXFIFO_EnableEvent
-                0x10004378       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100032b8       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
  .text.XMC_USIC_CH_RXFIFO_EnableEvent
-                0x100043a0       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100032dc       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_USIC_CH_RXFIFO_DisableEvent
+                0x10003304       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_USIC_CH_RXFIFO_Flush
+                0x1000332c       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_USIC_CH_RXFIFO_IsEmpty
+                0x10003348       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_I2C_CH_SetInterruptNodePointer
+                0x1000336c       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_I2C_CH_GetStatusFlag
+                0x10003390       0x14 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.XMC_I2C_CH_ClearStatusFlag
+                0x100033a4       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_SetRXFIFOTriggerLimit
+                0x100033c0       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_IsTXFIFOFull
+                0x100033e8       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_IsRXFIFOEmpty
+                0x10003404       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_GetReceivedByte
+                0x10003420       0x1c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_TransmitByte
+                0x1000343c       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_EnableEvent
+                0x10003460       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_DisableEvent
+                0x10003480       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_ReceiveACK
+                0x100034a0       0x18 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_ReceiveNACK
+                0x100034b8       0x18 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_SendStop
+                0x100034d0       0x24 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_SendStart
+                0x100034f4       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_SendRepeatedStart
+                0x1000352c       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.calculate_minfifosize
+                0x10003564       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_Init
+                0x1000358c       0x38 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x1000358c                I2C_MASTER_Init
+ .text.I2C_MASTER_GetFlagStatus
+                0x100035c4       0x28 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100035c4                I2C_MASTER_GetFlagStatus
+ .text.I2C_MASTER_ClearFlag
+                0x100035ec       0x20 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100035ec                I2C_MASTER_ClearFlag
+ .text.I2C_MASTER_Transmit
+                0x1000360c       0x5c ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x1000360c                I2C_MASTER_Transmit
+ .text.I2C_MASTER_TransmitHandler
+                0x10003668      0x298 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003668                I2C_MASTER_TransmitHandler
+ .text.I2C_MASTER_lSendStop_JumpTo_TxCallback
+                0x10003900       0x68 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_Receive
+                0x10003968       0x64 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003968                I2C_MASTER_Receive
+ .text.I2C_MASTER_lReceive_FIFOData
+                0x100039cc      0x20c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_lReceive_StdData
+                0x10003bd8      0x178 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_lSendStart_Or_RepeatedStart
+                0x10003d50       0x64 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_StartTransmitIRQ
+                0x10003db4      0x13c ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003db4                I2C_MASTER_StartTransmitIRQ
+ .text.I2C_MASTER_AbortTransmitIRQ
+                0x10003ef0       0x60 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_StartReceiveIRQ
+                0x10003f50      0x10c ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x10003f50                I2C_MASTER_StartReceiveIRQ
+ .text.I2C_MASTER_ReceiveHandler
+                0x1000405c      0x290 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x1000405c                I2C_MASTER_ReceiveHandler
+ .text.I2C_MASTER_lSendStop_JumpTo_RxCallback
+                0x100042ec       0x74 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_lAbortReceiveIRQ
+                0x10004360       0x70 ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_ProtocolHandler
+                0x100043d0       0x90 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100043d0                I2C_MASTER_ProtocolHandler
+ .text.I2C_MASTER_lReconfigureRxFIFO
+                0x10004460       0x9c ./Dave/Generated/I2C_MASTER/i2c_master.o
+ .text.I2C_MASTER_AbortTransmit
+                0x100044fc       0x60 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x100044fc                I2C_MASTER_AbortTransmit
+ .text.I2C_MASTER_AbortReceive
+                0x1000455c       0x48 ./Dave/Generated/I2C_MASTER/i2c_master.o
+                0x1000455c                I2C_MASTER_AbortReceive
+ .text.__NVIC_EnableIRQ
+                0x100045a4       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.__NVIC_SetPriority
+                0x100045d8       0xd4 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.XMC_USIC_CH_SetInputSource
+                0x100046ac       0x48 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.XMC_USIC_CH_EnableInputDigitalFilter
+                0x100046f4       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.XMC_USIC_CH_EnableInputSync
+                0x10004728       0x34 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.XMC_USIC_CH_TXFIFO_EnableEvent
+                0x1000475c       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+ .text.XMC_USIC_CH_RXFIFO_EnableEvent
+                0x10004784       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.XMC_USIC_CH_SetMode
-                0x100043c8       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100047ac       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.XMC_I2C_CH_Init
-                0x100043f0       0x20 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100047d4       0x20 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.XMC_I2C_CH_Start
-                0x10004410       0x18 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100047f4       0x18 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.I2C_MASTER_0_disable_io
-                0x10004428       0x24 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x1000480c       0x24 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.I2C_MASTER_0_enable_io
-                0x1000444c       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x10004830       0x28 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .text.I2C_MASTER_0_init
-                0x10004474      0x168 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
-                0x10004474                I2C_MASTER_0_init
+                0x10004858      0x168 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x10004858                I2C_MASTER_0_init
  .text.IRQ14_Handler
-                0x100045dc       0x14 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
-                0x100045dc                IRQ14_Handler
+                0x100049c0       0x14 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100049c0                IRQ14_Handler
  .text.IRQ12_Handler
-                0x100045f0       0x14 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
-                0x100045f0                IRQ12_Handler
+                0x100049d4       0x14 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100049d4                IRQ12_Handler
  .text.DIGITAL_IO_Init
-                0x10004604       0x40 ./Dave/Generated/DIGITAL_IO/digital_io.o
-                0x10004604                DIGITAL_IO_Init
+                0x100049e8       0x40 ./Dave/Generated/DIGITAL_IO/digital_io.o
+                0x100049e8                DIGITAL_IO_Init
  .text.SystemCoreSetup
-                0x10004644       0x18 ./Dave/Generated/CPU_CTRL_XMC1/cpu_ctrl_xmc1_conf.o
-                0x10004644                SystemCoreSetup
+                0x10004a28       0x18 ./Dave/Generated/CPU_CTRL_XMC1/cpu_ctrl_xmc1_conf.o
+                0x10004a28                SystemCoreSetup
  .text.CLOCK_XMC1_Init
-                0x1000465c       0x84 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
-                0x1000465c                CLOCK_XMC1_Init
+                0x10004a40       0x84 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
+                0x10004a40                CLOCK_XMC1_Init
  .text.SystemCoreClockSetup
-                0x100046e0       0x24 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
-                0x100046e0                SystemCoreClockSetup
+                0x10004ac4       0x24 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
+                0x10004ac4                SystemCoreClockSetup
  .text.DAVE_Init
-                0x10004704       0x94 ./Dave/Generated/DAVE.o
-                0x10004704                DAVE_Init
- .text.SPI_MASTER_EnableSlaveSelectSignal
-                0x10004798       0x30 ./ADXL345.o
- .text.SPI_MASTER_DisableSlaveSelectSignal
-                0x100047c8       0x18 ./ADXL345.o
- .text.Init_ADXL345
-                0x100047e0       0x18 ./ADXL345.o
-                0x100047e0                Init_ADXL345
- .text.Set_DataFormat
-                0x100047f8       0x20 ./ADXL345.o
-                0x100047f8                Set_DataFormat
- .text.Set_FIFO_CTR
-                0x10004818       0x20 ./ADXL345.o
-                0x10004818                Set_FIFO_CTR
- .text.PowerOn  0x10004838       0x10 ./ADXL345.o
-                0x10004838                PowerOn
- .text.WriteRegister_SingleByte
-                0x10004848       0x60 ./ADXL345.o
-                0x10004848                WriteRegister_SingleByte
- .text.BMP180_Test
-                0x100048a8       0x3c ./BMP180.o
-                0x100048a8                BMP180_Test
+                0x10004ae8       0x94 ./Dave/Generated/DAVE.o
+                0x10004ae8                DAVE_Init
+ .text.XMC_USIC_CH_TXFIFO_Flush
+                0x10004b7c       0x1c ./BMP180.o
+ .text.XMC_USIC_CH_RXFIFO_Flush
+                0x10004b98       0x1c ./BMP180.o
+ .text.I2C_MASTER_IsTxBusy
+                0x10004bb4       0x1c ./BMP180.o
+ .text.I2C_MASTER_FlushTxFifo
+                0x10004bd0       0x18 ./BMP180.o
+ .text.I2C_MASTER_FlushRxFifo
+                0x10004be8       0x18 ./BMP180.o
+ .text.BMP180_init
+                0x10004c00       0x84 ./BMP180.o
+                0x10004c00                BMP180_init
+ .text.Text_Communication
+                0x10004c84       0xc8 ./BMP180.o
+                0x10004c84                Text_Communication
  .text.XMC_GPIO_SetOutputLow
-                0x100048e4       0x24 ./main.o
+                0x10004d4c       0x24 ./main.o
  .text.SPI_MASTER_DisableSlaveSelectSignal
-                0x10004908       0x18 ./main.o
+                0x10004d70       0x18 ./main.o
  .text.DIGITAL_IO_SetOutputLow
-                0x10004920       0x20 ./main.o
- .text.main     0x10004940       0x68 ./main.o
-                0x10004940                main
+                0x10004d88       0x20 ./main.o
+ .text.main     0x10004da8       0x8c ./main.o
+                0x10004da8                main
  .text.Nack_ISR
-                0x100049a8        0x8 ./main.o
-                0x100049a8                Nack_ISR
+                0x10004e34       0x34 ./main.o
+                0x10004e34                Nack_ISR
+ .text.ARB_LOST_ISR
+                0x10004e68       0x14 ./main.o
+                0x10004e68                ARB_LOST_ISR
+ .text.Error_detect_ISR
+                0x10004e7c       0x38 ./main.o
+                0x10004e7c                Error_detect_ISR
+ .text.I2C_Transmit_ISR
+                0x10004eb4        0x8 ./main.o
+                0x10004eb4                I2C_Transmit_ISR
+ .text.I2C_Recive_ISR
+                0x10004ebc        0x8 ./main.o
+                0x10004ebc                I2C_Recive_ISR
  .text.SPI_Test
-                0x100049b0        0x8 ./main.o
-                0x100049b0                SPI_Test
- .text.SPI_MASTER_EnableSlaveSelectSignal
-                0x100049b8       0x30 ./nRF24L01+.o
- .text.SPI_MASTER_DisableSlaveSelectSignal
-                0x100049e8       0x18 ./nRF24L01+.o
- .text.Init_RF24
-                0x10004a00       0x84 ./nRF24L01+.o
-                0x10004a00                Init_RF24
- .text.setChannel
-                0x10004a84       0x5c ./nRF24L01+.o
-                0x10004a84                setChannel
- .text.setRetries
-                0x10004ae0       0x8c ./nRF24L01+.o
-                0x10004ae0                setRetries
- .text.setRadiation
-                0x10004b6c       0x88 ./nRF24L01+.o
-                0x10004b6c                setRadiation
- .text.setAddressWidth
-                0x10004bf4       0x80 ./nRF24L01+.o
-                0x10004bf4                setAddressWidth
- .text.setFeatures
-                0x10004c74       0x70 ./nRF24L01+.o
-                0x10004c74                setFeatures
- .text.enableAutoACK
-                0x10004ce4       0x50 ./nRF24L01+.o
-                0x10004ce4                enableAutoACK
- .text.enableRXpipe
-                0x10004d34       0x74 ./nRF24L01+.o
-                0x10004d34                enableRXpipe
- .text.getRXpipesEnabled
-                0x10004da8       0x58 ./nRF24L01+.o
-                0x10004da8                getRXpipesEnabled
- .text.setPayloadSize
-                0x10004e00       0x80 ./nRF24L01+.o
-                0x10004e00                setPayloadSize
- .text.setRxPipeAddress
-                0x10004e80       0xc4 ./nRF24L01+.o
-                0x10004e80                setRxPipeAddress
- .text.setTxPipeAddress
-                0x10004f44       0x9c ./nRF24L01+.o
-                0x10004f44                setTxPipeAddress
- .text.resetStatus
-                0x10004fe0       0x50 ./nRF24L01+.o
-                0x10004fe0                resetStatus
- .text.flushTX  0x10005030       0x50 ./nRF24L01+.o
-                0x10005030                flushTX
- .text.flushRX  0x10005080       0x50 ./nRF24L01+.o
-                0x10005080                flushRX
- .text.PowerUP  0x100050d0       0x6c ./nRF24L01+.o
-                0x100050d0                PowerUP
- .text.TX_Mode  0x1000513c       0x5c ./nRF24L01+.o
-                0x1000513c                TX_Mode
- .text.getConfigRegister
-                0x10005198       0x64 ./nRF24L01+.o
-                0x10005198                getConfigRegister
+                0x10004ec4       0x14 ./main.o
+                0x10004ec4                SPI_Test
+ .text.__errno  0x10004ed8        0xc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                0x10004ed8                __errno
  .text.__libc_init_array
-                0x100051fc       0x4c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
-                0x100051fc                __libc_init_array
+                0x10004ee4       0x4c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x10004ee4                __libc_init_array
+ .text.printf   0x10004f30       0x34 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+                0x10004f30                iprintf
+                0x10004f30                printf
+ .text._puts_r  0x10004f64       0xc2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+                0x10004f64                _puts_r
+ *fill*         0x10005026        0x2 
+ .text.puts     0x10005028       0x14 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+                0x10005028                puts
+ .text.__swbuf_r
+                0x1000503c       0xb0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+                0x1000503c                __swbuf_r
+ .text.__swsetup_r
+                0x100050ec       0xe8 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+                0x100050ec                __swsetup_r
+ .text.__sflush_r
+                0x100051d4      0x112 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+                0x100051d4                __sflush_r
+ *fill*         0x100052e6        0x2 
+ .text._fflush_r
+                0x100052e8       0x58 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+                0x100052e8                _fflush_r
+ .text._cleanup_r
+                0x10005340       0x10 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x10005340                _cleanup_r
+ .text.std.isra.0
+                0x10005350       0x48 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x10005398       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x10005398                __sfmoreglue
+ .text.__sinit  0x100053c4       0x64 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x100053c4                __sinit
+ .text.__sfp    0x10005428       0x7c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x10005428                __sfp
+ .text._fwalk_reent
+                0x100054a4       0x42 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+                0x100054a4                _fwalk_reent
+ *fill*         0x100054e6        0x2 
+ .text.__smakebuf_r
+                0x100054e8       0xb0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+                0x100054e8                __smakebuf_r
+ .text.memset   0x10005598       0x10 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                0x10005598                memset
+ .text._free_r  0x100055a8       0x8c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+                0x100055a8                _free_r
+ .text._malloc_r
+                0x10005634       0xb0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x10005634                _malloc_r
+ .text.__sfputc_r
+                0x100056e4       0x2a d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x1000570e       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+                0x1000570e                __sfputs_r
+ *fill*         0x10005732        0x2 
+ .text._vfprintf_r
+                0x10005734      0x220 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+                0x10005734                _vfprintf_r
+                0x10005734                _vfiprintf_r
+ .text._printf_common
+                0x10005954       0xdc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x10005954                _printf_common
+ .text._printf_i
+                0x10005a30      0x230 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x10005a30                _printf_i
+ .text._sbrk_r  0x10005c60       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+                0x10005c60                _sbrk_r
+ .text.__sread  0x10005c84       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                0x10005c84                __sread
+ .text.__swrite
+                0x10005cac       0x38 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                0x10005cac                __swrite
+ .text.__sseek  0x10005ce4       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                0x10005ce4                __sseek
+ .text.__sclose
+                0x10005d10        0xc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                0x10005d10                __sclose
+ .text._write_r
+                0x10005d1c       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+                0x10005d1c                _write_r
+ .text._close_r
+                0x10005d44       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+                0x10005d44                _close_r
+ .text._fstat_r
+                0x10005d68       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+                0x10005d68                _fstat_r
+ .text._isatty_r
+                0x10005d8c       0x24 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+                0x10005d8c                _isatty_r
+ .text._lseek_r
+                0x10005db0       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+                0x10005db0                _lseek_r
+ .text.memchr   0x10005dd8       0x16 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+                0x10005dd8                memchr
+ *fill*         0x10005dee        0x2 
+ .text._read_r  0x10005df0       0x28 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+                0x10005df0                _read_r
+ .text.findslot
+                0x10005e18       0x34 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text.error    0x10005e4c       0x1c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text.checkerror
+                0x10005e68        0xc d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .text.initialise_monitor_handles
+                0x10005e74       0x98 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005e74                initialise_monitor_handles
+ .text._swiread
+                0x10005f0c       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005f0c                _swiread
+ .text._read    0x10005f2c       0x36 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005f2c                _read
+ .text._swilseek
+                0x10005f62       0x76 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005f62                _swilseek
+ .text._lseek   0x10005fd8        0x8 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005fd8                _lseek
+ .text._swiwrite
+                0x10005fe0       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10005fe0                _swiwrite
+ .text._write   0x10006000       0x40 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10006000                _write
+ .text._swiclose
+                0x10006040       0x18 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10006040                _swiclose
+ .text._close   0x10006058       0x4c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10006058                _close
+ .text._swistat
+                0x100060a4       0x46 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x100060a4                _swistat
+ .text._fstat   0x100060ea       0x1a d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x100060ea                _fstat
+ .text._isatty  0x10006104       0x3a d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+                0x10006104                _isatty
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -2166,80 +2551,104 @@ END GROUP
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata .rodata.*)
+ *fill*         0x1000613e        0x2 
  .rodata.SPI_MASTER_0_MOSI
-                0x10005248        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005248                SPI_MASTER_0_MOSI
+                0x10006140        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006140                SPI_MASTER_0_MOSI
  .rodata.SPI_MASTER_0_MISO
-                0x10005250        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005250                SPI_MASTER_0_MISO
+                0x10006148        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006148                SPI_MASTER_0_MISO
  .rodata.SPI_MASTER_0_SCLKOUT
-                0x10005258        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005258                SPI_MASTER_0_SCLKOUT
+                0x10006150        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006150                SPI_MASTER_0_SCLKOUT
  .rodata.SPI_MASTER_0_SCLKOUT_Config
-                0x10005260       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005260                SPI_MASTER_0_SCLKOUT_Config
+                0x10006158       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006158                SPI_MASTER_0_SCLKOUT_Config
  .rodata.SPI_MASTER_0_SS_0
-                0x10005270        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005270                SPI_MASTER_0_SS_0
+                0x10006168        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006168                SPI_MASTER_0_SS_0
  .rodata.SPI_MASTER_0_SS_0_Config
-                0x10005278       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005278                SPI_MASTER_0_SS_0_Config
+                0x10006170       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006170                SPI_MASTER_0_SS_0_Config
  .rodata.SPI_MASTER_0_Config
-                0x10005288       0x8c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005288                SPI_MASTER_0_Config
+                0x10006180       0x8c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006180                SPI_MASTER_0_Config
  .rodata.SPI_MASTER_1_MOSI
-                0x10005314        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005314                SPI_MASTER_1_MOSI
+                0x1000620c        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x1000620c                SPI_MASTER_1_MOSI
  .rodata.SPI_MASTER_1_MISO
-                0x1000531c        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x1000531c                SPI_MASTER_1_MISO
+                0x10006214        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006214                SPI_MASTER_1_MISO
  .rodata.SPI_MASTER_1_SCLKOUT
-                0x10005324        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005324                SPI_MASTER_1_SCLKOUT
+                0x1000621c        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x1000621c                SPI_MASTER_1_SCLKOUT
  .rodata.SPI_MASTER_1_SCLKOUT_Config
-                0x1000532c       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x1000532c                SPI_MASTER_1_SCLKOUT_Config
+                0x10006224       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006224                SPI_MASTER_1_SCLKOUT_Config
  .rodata.SPI_MASTER_1_SS_0
-                0x1000533c        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x1000533c                SPI_MASTER_1_SS_0
+                0x10006234        0x8 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x10006234                SPI_MASTER_1_SS_0
  .rodata.SPI_MASTER_1_SS_0_Config
-                0x10005344       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005344                SPI_MASTER_1_SS_0_Config
+                0x1000623c       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x1000623c                SPI_MASTER_1_SS_0_Config
  .rodata.SPI_MASTER_1_Config
-                0x10005354       0x8c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x10005354                SPI_MASTER_1_Config
+                0x1000624c       0x8c ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x1000624c                SPI_MASTER_1_Config
  .rodata.I2C_MASTER_0_sda_pin_config
-                0x100053e0        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100062d8        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .rodata.I2C_MASTER_0_scl_pin_config
-                0x100053e8        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100062e0        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
  .rodata.I2C_MASTER_0_channel_config
-                0x100053f0        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
-                0x100053f0                I2C_MASTER_0_channel_config
+                0x100062e8        0x8 ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100062e8                I2C_MASTER_0_channel_config
  .rodata.I2C_MASTER_0_config
-                0x100053f8       0x2c ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
-                0x100053f8                I2C_MASTER_0_config
+                0x100062f0       0x2c ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
+                0x100062f0                I2C_MASTER_0_config
  .rodata.SPI_CE
-                0x10005424       0x10 ./Dave/Generated/DIGITAL_IO/digital_io_conf.o
-                0x10005424                SPI_CE
- .rodata        0x10005434       0x10 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
- .rodata        0x10005444       0x2c ./nRF24L01+.o
+                0x1000631c       0x10 ./Dave/Generated/DIGITAL_IO/digital_io_conf.o
+                0x1000631c                SPI_CE
+ .rodata        0x1000632c       0x10 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
+ .rodata        0x1000633c       0x54 ./BMP180.o
+ .rodata        0x10006390       0xe4 ./main.o
+ .rodata.str1.1
+                0x10006474        0x2 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ *fill*         0x10006476        0x2 
+ .rodata._global_impure_ptr
+                0x10006478        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x10006478                _global_impure_ptr
+ .rodata.__sf_fake_stdin
+                0x1000647c       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x1000647c                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x1000649c       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x1000649c                __sf_fake_stdout
+ .rodata.__sf_fake_stderr
+                0x100064bc       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x100064bc                __sf_fake_stderr
+ .rodata.str1.1
+                0x100064dc       0x11 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata.str1.1
+                0x100064ed       0x22 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata.str1.1
+                0x1000650f        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
  *(.gnu.linkonce.r*)
  *(vtable)
-                0x10005470                . = ALIGN (0x4)
+                0x10006514                . = ALIGN (0x4)
+ *fill*         0x10006513        0x1 
 
-.glue_7         0x10005470        0x0
+.glue_7         0x10006514        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x10005470        0x0
+.glue_7t        0x10006514        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x10005470        0x0
+.vfp11_veneer   0x10006514        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x10005470        0x0
+.v4_bx          0x10006514        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x10005470        0x0
+.iplt           0x10006514        0x0
  .iplt          0x00000000        0x0 ./Startup/startup_XMC1400.o
 
 .eh_frame_hdr
@@ -2250,15 +2659,15 @@ END GROUP
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10005470                . = ALIGN (0x4)
-                0x10005470                __exidx_start = .
+                0x10006514                . = ALIGN (0x4)
+                0x10006514                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10005470                __exidx_end = .
-                0x10005470                . = ALIGN (0x4)
+                0x10006514                __exidx_end = .
+                0x10006514                . = ALIGN (0x4)
 
-.VENEER_Code    0x2000000c      0x144 load address 0x10005470
+.VENEER_Code    0x2000000c      0x144 load address 0x10006514
                 0x2000000c                . = ALIGN (0x4)
                 0x2000000c                VeneerStart = .
  *(.XmcVeneerCode)
@@ -2302,10 +2711,10 @@ END GROUP
                 0x200000bc                IRQ31_Veener
                 0x20000150                . = ALIGN (0x4)
                 0x20000150                VeneerEnd = .
-                0x10005470                eROData = LOADADDR (.VENEER_Code)
+                0x10006514                eROData = LOADADDR (.VENEER_Code)
                 0x00000144                VeneerSize = (ABSOLUTE (VeneerEnd) - ABSOLUTE (VeneerStart))
 
-.rel.dyn        0x20000150        0x0 load address 0x100055b4
+.rel.dyn        0x20000150        0x0 load address 0x10006658
  .rel.iplt      0x00000000        0x0 ./Startup/startup_XMC1400.o
 
 Stack           0x20000150      0x400 load address 0x00000000
@@ -2314,7 +2723,7 @@ Stack           0x20000150      0x400 load address 0x00000000
  *fill*         0x20000150      0x400 
                 0x20000550                __initial_sp = .
 
-.data           0x20000550       0xd0 load address 0x100055b4
+.data           0x20000550      0x134 load address 0x10006658
                 0x20000550                . = ALIGN (0x4)
                 0x20000550                __data_start = .
  *(.data)
@@ -2349,86 +2758,101 @@ Stack           0x20000150      0x400 load address 0x00000000
  .data.I2C_MASTER_0
                 0x20000614        0xc ./Dave/Generated/I2C_MASTER/i2c_master_conf.o
                 0x20000614                I2C_MASTER_0
+ .data.impure_data
+                0x20000620       0x60 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000680        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x20000680                _impure_ptr
  *(*.data)
  *(.gnu.linkonce.d*)
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                PROVIDE (__preinit_array_start, .)
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000620                PROVIDE (__preinit_array_end, .)
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                PROVIDE (__init_array_start, .)
+                0x20000684                PROVIDE (__preinit_array_end, .)
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
-                0x20000620                PROVIDE (__init_array_end, .)
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                PROVIDE (__fini_array_start, .)
+                0x20000684                PROVIDE (__init_array_end, .)
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
-                0x20000620                PROVIDE (__fini_array_end, .)
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                __data_end = .
-                0x100055b4                DataLoadAddr = LOADADDR (.data)
-                0x000000d0                __data_size = (__data_end - __data_start)
+                0x20000684                PROVIDE (__fini_array_end, .)
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                __data_end = .
+                0x10006658                DataLoadAddr = LOADADDR (.data)
+                0x00000134                __data_size = (__data_end - __data_start)
 
-.igot.plt       0x20000620        0x0 load address 0x10005684
+.igot.plt       0x20000684        0x0 load address 0x1000678c
  .igot.plt      0x00000000        0x0 ./Startup/startup_XMC1400.o
 
-.ram_code       0x20000620        0x0 load address 0x10005684
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                __ram_code_start = .
+.ram_code       0x20000684        0x0 load address 0x1000678c
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                __ram_code_start = .
  *(.ram_code)
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                __ram_code_end = .
-                0x10005684                __ram_code_load = LOADADDR (.ram_code)
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                __ram_code_end = .
+                0x1000678c                __ram_code_load = LOADADDR (.ram_code)
                 0x00000000                __ram_code_size = (__ram_code_end - __ram_code_start)
-                0x00004684                __text_size = ((((__exidx_end - sText) + VeneerSize) + __data_size) + __ram_code_size)
-                0x10005684                eText = (sText + __text_size)
+                0x0000578c                __text_size = ((((__exidx_end - sText) + VeneerSize) + __data_size) + __ram_code_size)
+                0x1000678c                eText = (sText + __text_size)
 
-.bss            0x20000620       0xf8 load address 0x10005684
-                0x20000620                . = ALIGN (0x4)
-                0x20000620                __bss_start = .
+.bss            0x20000684      0x12c load address 0x1000678c
+                0x20000684                . = ALIGN (0x4)
+                0x20000684                __bss_start = .
  *(.bss)
  *(.bss*)
  .bss.IDIV.5134
-                0x20000620        0x4 ./Startup/system_XMC1400.o
+                0x20000684        0x4 ./Startup/system_XMC1400.o
  .bss.FDIV.5135
-                0x20000624        0x4 ./Startup/system_XMC1400.o
+                0x20000688        0x4 ./Startup/system_XMC1400.o
+ .bss.heap_ptr.4331
+                0x2000068c        0x4 ./Libraries/Newlib/syscalls.o
  .bss.SPI_MASTER_0_MISO_Config
-                0x20000628       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x20000628                SPI_MASTER_0_MISO_Config
+                0x20000690       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x20000690                SPI_MASTER_0_MISO_Config
  .bss.SPI_MASTER_1_MISO_Config
-                0x20000638       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
-                0x20000638                SPI_MASTER_1_MISO_Config
+                0x200006a0       0x10 ./Dave/Generated/SPI_MASTER/spi_master_conf.o
+                0x200006a0                SPI_MASTER_1_MISO_Config
  .bss.CLOCK_XMC1_0
-                0x20000648        0x4 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
-                0x20000648                CLOCK_XMC1_0
+                0x200006b0        0x4 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
+                0x200006b0                CLOCK_XMC1_0
+ .bss.__malloc_sbrk_start
+                0x200006b4        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x200006b4                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x200006b8        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x200006b8                __malloc_free_list
+ .bss.monitor_stdout
+                0x200006bc        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .bss.monitor_stdin
+                0x200006c0        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .bss.monitor_stderr
+                0x200006c4        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
+ .bss.openfiles
+                0x200006c8       0xa0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
  *(COMMON)
- COMMON         0x2000064c       0x40 ./ADXL345.o
-                0x2000064c                ADXL345_DataSent
-                0x2000066c                ADXL345_DataRead
- COMMON         0x2000068c       0x40 ./BMP180.o
-                0x2000068c                BMP180_DataRead
-                0x200006ac                BMP180_DataSent
- COMMON         0x200006cc       0x45 ./main.o
-                0x200006cc                NRF24ReadData
-                0x200006ec                Config_Regiter
-                0x200006f0                NRF24SendData
-                0x20000710                Status_reg
+ COMMON         0x20000768       0x41 ./BMP180.o
+                0x20000768                BMP180_DataRead
+                0x20000788                BMP180_DataSent
+                0x200007a8                BMP180_I2C_Status
+ *fill*         0x200007a9        0x3 
+ COMMON         0x200007ac        0x4 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+                0x200007ac                errno
  *(.gnu.linkonce.b*)
-                0x20000714                . = ALIGN (0x4)
- *fill*         0x20000711        0x3 
-                0x20000714                __bss_end = .
-                0x20000718                . = ALIGN (0x8)
- *fill*         0x20000714        0x4 
-                0x20000718                Heap_Bank1_Start = .
-                0x000000f4                __bss_size = (__bss_end - __bss_start)
+                0x200007b0                . = ALIGN (0x4)
+                0x200007b0                __bss_end = .
+                0x200007b0                . = ALIGN (0x8)
+                0x200007b0                Heap_Bank1_Start = .
+                0x0000012c                __bss_size = (__bss_end - __bss_start)
 
 .no_init        0x20003ffc        0x4 load address 0x00003eac
                 0x20003ffc                Heap_Bank1_End = .
  *(.no_init)
  .no_init       0x20003ffc        0x4 ./Startup/system_XMC1400.o
                 0x20003ffc                SystemCoreClock
-                0x000038e4                Heap_Bank1_Size = (Heap_Bank1_End - Heap_Bank1_Start)
+                0x0000384c                Heap_Bank1_Size = (Heap_Bank1_End - Heap_Bank1_Start)
                 0x00000001                ASSERT ((Heap_Bank1_Start <= Heap_Bank1_End), region SRAM overflowed no_init section)
 
 /DISCARD/
@@ -2452,7 +2876,7 @@ Stack           0x20000150      0x400 load address 0x00000000
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0xcf8
+.debug_aranges  0x00000000      0xb48
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x28 ./Startup/startup_XMC1400.o
@@ -2495,13 +2919,9 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_aranges
                 0x00000a50       0x20 ./Dave/Generated/DAVE.o
  .debug_aranges
-                0x00000a70       0xa8 ./ADXL345.o
+                0x00000a70       0x60 ./BMP180.o
  .debug_aranges
-                0x00000b18       0x20 ./BMP180.o
- .debug_aranges
-                0x00000b38       0x58 ./main.o
- .debug_aranges
-                0x00000b90      0x168 ./nRF24L01+.o
+                0x00000ad0       0x78 ./main.o
 
 .debug_pubnames
  *(.debug_pubnames)
@@ -2509,7 +2929,7 @@ Stack           0x20000150      0x400 load address 0x00000000
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_info     0x00000000    0x12f09
+.debug_info     0x00000000    0x10b49
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000       0x6d ./Startup/startup_XMC1400.o
  .debug_info    0x0000006d      0x617 ./Startup/system_XMC1400.o
@@ -2531,12 +2951,10 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_info    0x0000cffc      0x2d2 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_info    0x0000d2ce      0x35e ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_info    0x0000d62c     0x1344 ./Dave/Generated/DAVE.o
- .debug_info    0x0000e970     0x1241 ./ADXL345.o
- .debug_info    0x0000fbb1      0x9c9 ./BMP180.o
- .debug_info    0x0001057a     0x11f3 ./main.o
- .debug_info    0x0001176d     0x179c ./nRF24L01+.o
+ .debug_info    0x0000e970      0xb4f ./BMP180.o
+ .debug_info    0x0000f4bf     0x168a ./main.o
 
-.debug_abbrev   0x00000000     0x2a80
+.debug_abbrev   0x00000000     0x2639
  *(.debug_abbrev)
  .debug_abbrev  0x00000000       0x12 ./Startup/startup_XMC1400.o
  .debug_abbrev  0x00000012      0x165 ./Startup/system_XMC1400.o
@@ -2558,12 +2976,10 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_abbrev  0x00001dac      0x10b ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_abbrev  0x00001eb7      0x12b ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_abbrev  0x00001fe2      0x1a0 ./Dave/Generated/DAVE.o
- .debug_abbrev  0x00002182      0x23c ./ADXL345.o
- .debug_abbrev  0x000023be      0x197 ./BMP180.o
- .debug_abbrev  0x00002555      0x238 ./main.o
- .debug_abbrev  0x0000278d      0x2f3 ./nRF24L01+.o
+ .debug_abbrev  0x00002182      0x272 ./BMP180.o
+ .debug_abbrev  0x000023f4      0x245 ./main.o
 
-.debug_line     0x00000000     0x60ed
+.debug_line     0x00000000     0x5557
  *(.debug_line)
  .debug_line    0x00000000       0xe2 ./Startup/startup_XMC1400.o
  .debug_line    0x000000e2      0x27b ./Startup/system_XMC1400.o
@@ -2585,12 +3001,10 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_line    0x00004303      0x2bd ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_line    0x000045c0      0x294 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_line    0x00004854      0x3d3 ./Dave/Generated/DAVE.o
- .debug_line    0x00004c27      0x459 ./ADXL345.o
- .debug_line    0x00005080      0x2fc ./BMP180.o
- .debug_line    0x0000537c      0x469 ./main.o
- .debug_line    0x000057e5      0x908 ./nRF24L01+.o
+ .debug_line    0x00004c27      0x3f5 ./BMP180.o
+ .debug_line    0x0000501c      0x53b ./main.o
 
-.debug_frame    0x00000000     0x2c24
+.debug_frame    0x00000000     0x304c
  *(.debug_frame)
  .debug_frame   0x00000000       0x9c ./Startup/system_XMC1400.o
  .debug_frame   0x0000009c       0x58 ./Libraries/XMCLib/src/xmc1_gpio.o
@@ -2610,13 +3024,36 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_frame   0x000022a4       0x70 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_frame   0x00002314       0x34 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_frame   0x00002348       0x34 ./Dave/Generated/DAVE.o
- .debug_frame   0x0000237c      0x23c ./ADXL345.o
- .debug_frame   0x000025b8       0x34 ./BMP180.o
- .debug_frame   0x000025ec      0x108 ./main.o
- .debug_frame   0x000026f4      0x504 ./nRF24L01+.o
- .debug_frame   0x00002bf8       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000237c      0x140 ./BMP180.o
+ .debug_frame   0x000024bc      0x178 ./main.o
+ .debug_frame   0x00002634       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00002654       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00002680       0x50 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x000026d0       0x44 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+ .debug_frame   0x00002714       0x44 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x00002758       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x00002784       0x68 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x000027ec      0x140 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000292c       0x58 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00002984       0x30 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x000029b4       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x000029d4       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00002a00       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00002a2c       0xa0 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x00002acc       0x54 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00002b20       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00002b4c       0x90 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x00002bdc       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x00002c08       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x00002c34       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00002c60       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x00002c8c       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x00002cb8       0x20 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .debug_frame   0x00002cd8       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x00002d04       0x48 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x00002d4c      0x300 d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
 
-.debug_str      0x00000000     0x7ce5
+.debug_str      0x00000000     0x793f
  *(.debug_str)
  .debug_str     0x00000000      0x3d3 ./Startup/system_XMC1400.o
                                 0x419 (size before relaxing)
@@ -2656,16 +3093,12 @@ Stack           0x20000150      0x400 load address 0x00000000
                                 0x5f7 (size before relaxing)
  .debug_str     0x000076e4       0x65 ./Dave/Generated/DAVE.o
                                0x1aa8 (size before relaxing)
- .debug_str     0x00007749      0x23f ./ADXL345.o
-                               0x1ad3 (size before relaxing)
- .debug_str     0x00007988       0x38 ./BMP180.o
-                                0xceb (size before relaxing)
- .debug_str     0x000079c0       0xb3 ./main.o
-                               0x1a5e (size before relaxing)
- .debug_str     0x00007a73      0x272 ./nRF24L01+.o
-                               0x1d20 (size before relaxing)
+ .debug_str     0x00007749       0xb7 ./BMP180.o
+                                0xdb0 (size before relaxing)
+ .debug_str     0x00007800      0x13f ./main.o
+                               0x219b (size before relaxing)
 
-.debug_loc      0x00000000     0x480e
+.debug_loc      0x00000000     0x3e96
  *(.debug_loc)
  .debug_loc     0x00000000       0xdc ./Startup/system_XMC1400.o
  .debug_loc     0x000000dc       0x70 ./Libraries/XMCLib/src/xmc1_gpio.o
@@ -2685,15 +3118,13 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_loc     0x0000393a       0xa8 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_loc     0x000039e2       0x38 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_loc     0x00003a1a       0x38 ./Dave/Generated/DAVE.o
- .debug_loc     0x00003a52      0x3b4 ./ADXL345.o
- .debug_loc     0x00003e06       0x38 ./BMP180.o
- .debug_loc     0x00003e3e      0x19c ./main.o
- .debug_loc     0x00003fda      0x834 ./nRF24L01+.o
+ .debug_loc     0x00003a52      0x1f8 ./BMP180.o
+ .debug_loc     0x00003c4a      0x24c ./main.o
 
 .debug_macinfo
  *(.debug_macinfo)
 
-.debug_ranges   0x00000000      0xb78
+.debug_ranges   0x00000000      0x9e8
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x20 ./Startup/startup_XMC1400.o
  .debug_ranges  0x00000020       0x30 ./Startup/system_XMC1400.o
@@ -2714,10 +3145,8 @@ Stack           0x20000150      0x400 load address 0x00000000
  .debug_ranges  0x000008f0       0x20 ./Dave/Generated/CLOCK_XMC1/clock_xmc1.o
  .debug_ranges  0x00000910       0x10 ./Dave/Generated/CLOCK_XMC1/clock_xmc1_conf.o
  .debug_ranges  0x00000920       0x10 ./Dave/Generated/DAVE.o
- .debug_ranges  0x00000930       0x98 ./ADXL345.o
- .debug_ranges  0x000009c8       0x10 ./BMP180.o
- .debug_ranges  0x000009d8       0x48 ./main.o
- .debug_ranges  0x00000a20      0x158 ./nRF24L01+.o
+ .debug_ranges  0x00000930       0x50 ./BMP180.o
+ .debug_ranges  0x00000980       0x68 ./main.o
 
 .debug_weaknames
  *(.debug_weaknames)
@@ -2732,7 +3161,7 @@ Stack           0x20000150      0x400 load address 0x00000000
  *(.debug_varnames)
 
 .build_attributes
-                0x00000000      0x4b4
+                0x00000000      0x8ca
  *(.ARM.attributes)
  .ARM.attributes
                 0x00000000       0x21 ./Startup/startup_XMC1400.o
@@ -2775,13 +3204,61 @@ Stack           0x20000150      0x400 load address 0x00000000
  .ARM.attributes
                 0x00000393       0x31 ./Dave/Generated/DAVE.o
  .ARM.attributes
-                0x000003c4       0x31 ./ADXL345.o
+                0x000003c4       0x31 ./BMP180.o
  .ARM.attributes
-                0x000003f5       0x31 ./BMP180.o
+                0x000003f5       0x31 ./main.o
  .ARM.attributes
-                0x00000426       0x31 ./main.o
+                0x00000426       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000457       0x31 ./nRF24L01+.o
+                0x00000452       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000488       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x0000047e       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000004aa       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x000004d6       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-puts.o)
+ .ARM.attributes
+                0x00000502       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000052e       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000055a       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000586       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x000005b2       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x000005de       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000060a       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000636       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000662       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000068e       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x000006ba       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x000006e6       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000712       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000073e       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000076a       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000796       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x000007c2       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x000007ee       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000081a       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000846       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000872       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000089e       0x2c d:/downloads/dave_4-4-2_64bit_2018-02-23/dave-ide-4.4.2-64bit/dave-ide-4.4.2-64bit/eclipse/arm-gcc-49/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\librdimon_nano.a(rdimon-syscalls.o)
 OUTPUT(RoverX.elf elf32-littlearm)

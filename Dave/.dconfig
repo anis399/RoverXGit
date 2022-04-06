@@ -8,14 +8,14 @@
             <BindMap MUri="peripheral/cpu/0/exception/hardfault" Proxy="app/CPU_CTRL_XMC1/0/hwres_exception_hardfault"/>
             <BindMap MUri="devicepackage/0/48" Proxy="app/SPI_MASTER/1/__pin_hwres_port_pad_spi_sclkout"/>
             <BindMap MUri="port/p/0/pad/14" Proxy="app/CPU_CTRL_XMC1/0/hwres_swd0_0"/>
-            <BindMap MUri="devicepackage/0/10" Proxy="app/I2C_MASTER/0/__pin_hwres_i2c_scl"/>
+            <BindMap MUri="devicepackage/0/20" Proxy="app/I2C_MASTER/0/__pin_hwres_i2c_scl"/>
             <BindMap MUri="devicepackage/0/41" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_mosi_1"/>
             <BindMap MUri="port/p/0/pad/2" Proxy="app/DIGITAL_IO/0/hwres_port_pin"/>
             <BindMap MUri="devicepackage/0/36" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_mosi_0"/>
             <BindMap MUri="port/p/0/pad/7" Proxy="app/SPI_MASTER/1/hwres_port_pad_spi_sclkout"/>
             <BindMap MUri="devicepackage/0/43" Proxy="app/DIGITAL_IO/0/__pin_hwres_port_pin"/>
             <BindMap MUri="devicepackage/0/19" Proxy="app/I2C_MASTER/0/__pin_hwres_i2c_sda"/>
-            <BindMap MUri="port/p/2/pad/1" Proxy="app/I2C_MASTER/0/hwres_i2c_scl"/>
+            <BindMap MUri="port/p/2/pad/11" Proxy="app/I2C_MASTER/0/hwres_i2c_scl"/>
             <BindMap MUri="peripheral/usic/0/channel/1" Proxy="app/I2C_MASTER/0/hwres_usic_channel"/>
             <BindMap MUri="devicepackage/0/29" Proxy="app/SPI_MASTER/1/__pin_hwres_port_pad_spi_mosi_0"/>
             <BindMap MUri="devicepackage/0/30" Proxy="app/SPI_MASTER/1/__pin_hwres_port_pad_spi_mosi_1"/>

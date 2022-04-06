@@ -59,7 +59,7 @@ RoverX.elf: $(OBJS) ../linker_script.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM-GCC C Linker'
 	$(file >objects.rsp,$(OBJS))
-	"$(TOOLCHAIN_ROOT)/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,$(MAP_FILE) -mcpu=cortex-m0 -mthumb -g -gdwarf-2 -o "RoverX.elf" "@objects.rsp" $(USER_OBJS) $(LIBS)
+	"$(TOOLCHAIN_ROOT)/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,$(MAP_FILE) --specs=rdimon.specs -mcpu=cortex-m0 -mthumb -g -gdwarf-2 -o "RoverX.elf" "@objects.rsp" $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo.
 RoverX.hex: RoverX.elf

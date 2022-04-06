@@ -47,7 +47,7 @@
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port2/port2_2.dd#//@provided.0"/>
   </hwResources>
   <hwResources name="SCL" URI="http://resources/4.1.34/app/I2C_MASTER/0/hwres_i2c_scl" resourceGroupUri="port/p/*/pad/*" mResGrpUri="port/p/*/pad/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port2/port2_2.dd#//@provided.8"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port2/port2_2.dd#//@provided.14"/>
   </hwResources>
   <hwResources name="DMA channel Tx" URI="http://resources/4.1.34/app/I2C_MASTER/0/hwres_tx_dma_channel" resourceGroupUri="" required="false" solverVariable="true" mResGrpUri="peripheral/sv0/0/ch/*">
     <solverVarMap index="1">
@@ -70,8 +70,8 @@
   <hwResources name="SDA" URI="http://resources/4.1.34/app/I2C_MASTER/0/__pin_hwres_i2c_sda" resourceGroupUri="devicepackage/0/19" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.14"/>
   </hwResources>
-  <hwResources name="SCL" URI="http://resources/4.1.34/app/I2C_MASTER/0/__pin_hwres_i2c_scl" resourceGroupUri="devicepackage/0/10" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.15"/>
+  <hwResources name="SCL" URI="http://resources/4.1.34/app/I2C_MASTER/0/__pin_hwres_i2c_scl" resourceGroupUri="devicepackage/0/20" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.16"/>
   </hwResources>
   <connections URI="http://resources/4.1.34/app/I2C_MASTER/0/http://resources/4.1.34/app/I2C_MASTER/0/vs_i2c_dout0/http://resources/4.1.34/app/I2C_MASTER/0/vs_i2c_sdapad" systemDefined="true" sourceSignal="tx pin" targetSignal="sda_pin" srcVirtualSignal="//@virtualSignals.10" targetVirtualSignal="//@virtualSignals.8"/>
   <connections URI="http://resources/4.1.34/app/I2C_MASTER/0/http://resources/4.1.34/app/I2C_MASTER/0/vs_i2c_sdapad/http://resources/4.1.34/app/I2C_MASTER/0/vs_i2c_dx0ins" systemDefined="true" sourceSignal="sda_pin" targetSignal="rx pin" srcVirtualSignal="//@virtualSignals.8" targetVirtualSignal="//@virtualSignals.11"/>
